@@ -1,0 +1,41 @@
+{
+  "allowedUsers": [
+    "kocesss23",
+    "cashless0001",
+    "roblox_user_9584494338",
+    "Darkness_hunter8",
+    "Guest0134679",
+    "whyrruu",
+    "2k_Zoey",
+    "LukMandex",
+    "Ventirz",
+    "Phixarc",
+    "nopall_lexsa",
+    "diva2nd",
+    "GrizzX01",
+    "xynyler",
+    "anangIreng",
+    "THEONEEND7",
+    "Bellztai",
+    "Agexx7222",
+    "rafelaja9",
+    "ravienz2",
+    "acongjahat23",
+    "arthurhendsome",
+    "VirgilZaim123",
+    "Fynngenn",
+    "ClarissaSilvya",
+    "illusion81509"
+  ],
+  "allowedClientIds": {
+    "{8C8D8E77-F81D-4380-B346-BE69EF19C6D1}": true,
+    "{1f71c141-47e5-4175-be81-f47edfa1d601}": true,
+    "{576d2c8d-9112-4be5-ae42-3bac0733c77f}": true,
+    "{A35B9CE0-5DF7-44BF-88F2-D3272D99E732}": true,
+    "{D71EF3E5-23DA-4543-9521-4BBA5FF3BA28}": true,
+    "{a694ef05-5d81-4323-825a-57b0e012f559}": true,
+    "{096E3564-D0FF-46BB-862B-DB9DCDF1BE68}": true,
+    "{9f63c13e-acd1-416b-be58-aa2634b5b99c}": true,
+    "{fac745d9-80c7-4966-a096-0904db61de2d}": true
+  }
+}
