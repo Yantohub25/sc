@@ -1,3 +1,481 @@
--- this file was obfuscated with the yantohub obf (prom fork) at https://dsc.gg/yantorobloxhub
--- this file should only be ran in roblox, if not there will be consequences!
-return(function(...)local _V_STATE=true do local f=Instance.new("\070\114\097\109\101")local c=0;(f:GetPropertyChangedSignal("\080\111\115\105\116\105\111\110")):Connect(function()c=c+1 end)local t=(game:GetService("\084\119\101\101\110\083\101\114\118\105\099\101")):Create(f,TweenInfo.new(.01),{Position=UDim2.new(1,0,1,0)})t:Play()t.Completed:Wait()if c==0 or getfenv~=getfenv or _VERSION~="\076\117\097\117"then _V_STATE=false end end local function _crash(m)error("\n\091\033\093 \083\069\067\085\082\073\084\089\095\069\082\082\058 "..((m or"\069\078\086\095\084\065\077\080\069\082\069\068").."\n"),0)while true do end end local _trace=debug.traceback()if _trace:find("\105\110\112\117\116\095")or _trace:find("\082\097\121\108")or _trace:find("\100\117\109\112")then _crash("\068\085\077\080\069\082\095\068\069\084\069\067\084\069\068")end if not _V_STATE then _crash("\069\077\085\076\065\084\079\082\095\068\069\084\069\067\084\069\068")end do local _check_a={}if math.nan==math.nan then return(nil)()end if(tostring({})):sub(8,15)==(tostring(_check_a)):sub(8,15)then return(nil)()end end do local _a={}if math.nan==math.nan then return(nil)()end if(tostring({})):sub(8,15)==(tostring(_a)):sub(8,15)then return(nil)()end local _g=getfenv and getfenv(0)or _G local _rs,_rg,_re,_t,_ty,_ts,_p=rawset,rawget,rawequal,type,typeof,tostring,pcall local function _x()local _f=function()return _f()end _p(_f)task.wait(9000000000)return(nil)()end local _test=_p(function()local _tk=task if _ty(_tk)~="\116\097\098\108\101"or _ty(_tk.spawn)~="\102\117\110\099\116\105\111\110"or _ty(_tk.wait)~="\102\117\110\099\116\105\111\110"then return false end return true end)if not _test then _x()end local valid=true local gmatch=string.gmatch local chars=string.split("\097\098\099\100\101\102\103\104\105\106\107\108\109\110\111\112\113\114\115\116\117\118\119\120\121\122\065\066\067\068\069\070\071\072\073\074\075\076\077\078\079\080\081\082\083\084\085\086\087\088\089\090\095\048\049\050\051\052\053\054\055\056\057","")local function rstr(len)local str=""for i=1,len or 7,1 do str=str..chars[math.random(1,#chars)]end return str end if not _p(function()local _d,_c=debug,coroutine _d=nil _c=nil end)then _x()end local pcallRet={_p(function()local a=math.random(1,2^24)-rstr(16)^math.random(1,2^24)return rstr(math.random(6,13))/a end)}local origMsg=pcallRet[2]local line=tonumber((gmatch(_ts(origMsg),"\058\040\037\100\042\041\058"))())for i=1,10,1 do local len=math.random(1,50)local n2=math.random(0,255)local pos=math.random(1,len)local msg=origMsg:gsub("\058\040\037\100\042\041\058","\058"..(_ts(math.random(0,10000)).."\058"))local arr={_p(function()local line2=tonumber((gmatch(_ts(({_p(function()local a=math.random(1,2^24)-"\082\065\078\068\079\077"^math.random(1,2^24)return"\069\082\082"/a end)})[2]),"\058\040\037\100\042\041\058"))())if line~=line2 then valid=false end local a={}for i=1,len,1 do a[i]=math.random(0,255)end a[pos]=n2 return unpack(a)end)}if not arr[1]then valid=false end end local obj=setmetatable({},{__tostring=_x})obj[math.random(1,100)]=obj;(function() end)(obj)if _p(function()setmetatable(game,{})end)then valid=false end if getfenv~=getfenv or getfenv()~=getfenv()then _x()end if _VERSION~="\076\117\097\117"then valid=false end local Frame=Instance.new("\070\114\097\109\101")Frame.Position=UDim2.new(0,0,0,0)local ChangedCount=0;(Frame:GetPropertyChangedSignal("\080\111\115\105\116\105\111\110")):Connect(function()ChangedCount=ChangedCount+1 end)local tw=(game:GetService("\084\119\101\101\110\083\101\114\118\105\099\101")):Create(Frame,TweenInfo.new(.01),{Position=UDim2.fromScale(1,1)})tw:Play()tw.Completed:Wait()if ChangedCount==0 then valid=false end local function _m()local _p1,_k,_r1={},"\115\101\110\116\105\110\101\108",{}_rs(_p1,_k,_r1)if not _re(_rg(_p1,_k),_r1)then return false end local _s1,_t1=_p(function()return getrawmetatable(game)end)if _s1 and _t1 then if _rg(_t1,"\095\095\105\110\100\101\120")==nil or _rg(_t1,"\095\095\110\097\109\101\099\097\108\108")==nil then return false end end return true end local function _e()local _s2,_f=_p(function()return getfenv(0)end)if _s2 and _f then local _list2={"\104\111\111\107\102\117\110\099\116\105\111\110";"\104\111\111\107\109\101\116\097\109\101\116\104\111\100";"\108\117\097\115\105\118\101";"\100\117\109\112\101\114"}for _,v in ipairs(_list2)do if _rg(_f,v)~=nil then _x()end end end end if not valid or not _m()then _x()end _e()task.spawn(function()while true do task.wait(15)if not _m()then _x()end _e()end end)end local IliiIIl1=setmetatable local ll1IIllI=IliiIIl1({lI1I1li1=function() end},{__mul=function(IIliii1l,lli11I1l)IIliii1l.lI1I1li1=lli11I1l end,__concat=function(IlI1iIll,lli1II11)return IlI1iIll.lI1I1li1 end})local Ii111l11=IliiIIl1({lIiIlIlI={"\056\112\073\061","\048\083\097\120\071\057\116\074\090\069\061\061";"\113\057\074\114\113\069\061\061";"\113\082\106\100\113\112\072\114\113\087\099\121\119\080\106\052\071\077\061\061","\119\067\071\110\081\068\067\047\107\083\090\077\089\049\112\088\053\078\085\055\114\109\085\090\079\052\054\043\079\069\119\122\114\088\072\053\083\070\105\075\069\112\122\098\102\120\101\072\119\098\088\102\114\084\104\043\065\121\121\109\113\102\074\081\085\049\089\121\051\112\080\117\085\081\075\055\068\072\071\102\088\070\110\120\057\069\061\061","\104\077\061\061","\075\121\054\105";"\103\098\073\061";"\113\121\102\083\068\077\061\061","\115\054\100\065\110\077\106\076\055\106\051\121\119\120\076\050\081\057\081\108\088\105\114\081\053\076\102\048\074\077\061\061","\054\099\074\057\113\054\113\103\119\107\119\110\102\049\088\089","\113\100\099\106\113\052\061\061";"\052\052\061\061";"\048\083\097\087\068\109\061\061","\068\087\074\066\113\052\061\061","\070\053\102\086\098\056\120\105\071\053\099\083\090\087\119\048\119\069\061\061","\075\100\054\066\071\112\054\066\068\048\116\078\068\057\085\074","\119\053\099\085\117\057\054\053\116\056\068\084\043\066\074\089\071\108\118\061";"\048\083\097\079\113\112\073\061","\119\080\099\105\071\080\082\061";"\117\082\078\089\071\056\118\110\075\048\103\083\054\082\099\048\102\057\109\061";"\088\108\049\079\048\086\051\047\122\069\061\061";"\070\080\097\049\043\100\054\103";"\047\052\061\061","\070\049\116\049\102\056\054\117\043\121\078\055\116\100\116\053\102\103\056\061";"\067\072\070\083\113\109\061\061","\070\069\061\061";"\117\100\099\088\119\103\102\121\113\087\120\114\052\103\120\053\068\052\061\061","\071\080\097\078\113\108\102\066\075\057\074\114\113\109\061\061","\068\100\078\078\075\077\061\061";"\075\121\116\084\043\112\110\087";"\052\053\054\068\075\100\120\078\117\112\079\110\113\048\069\053";"\051\053\116\055\071\074\116\043\090\099\113\049\051\082\054\043\071\052\061\061","\076\077\113\068\105\098\079\053\077\067\068\065\090\111\052\055\078\102\109\104\112\055\052\067\113\113\055\057\082\110\103\052\075\111\071\076\102\047\111\073\116\055\079\047\048\104\053\066\052\043\055\049\048\067\082\102\075\086\066\061","";"\048\083\097\106\113\048\116\078\119\080\099\105\071\080\082\061";"\120\052\061\061";"\119\112\110\109\068\112\102\055";"\068\100\097\114\068\100\099\066";"\055\088\115\082\097\077\061\061"}},{__add=function(IlliliII,ll1l1ili)IlliliII.lIiIlIlI=ll1l1ili end;__sub=function(IiI1II1i,llIIii1i)return IiI1II1i.lIiIlIlI end})for IIIl1Ill,l1lI1Ili in ipairs({{(1+1)-1,(40+1)-1},{(1+1)-1,(10+1)-1};{(11+1)-1,(40+1)-1}})do while l1lI1Ili[(1+1)-1]<l1lI1Ili[(2+1)-1]do(Ii111l11-"\073\105\073\049\049\105\108\105")[l1lI1Ili[(1+1)-1]],(Ii111l11-"\073\108\105\105\105\108\073\049")[l1lI1Ili[(2+1)-1]],l1lI1Ili[(1+1)-1],l1lI1Ili[(2+1)-1]=(Ii111l11-"\108\108\073\073\108\049\073\108")[l1lI1Ili[(2+1)-1]],(Ii111l11-"\108\105\108\105\108\073\108\105")[l1lI1Ili[(1+1)-1]],l1lI1Ili[(1+1)-1]+((1+1)-1),l1lI1Ili[(2+1)-1]-((1+1)-1)end end local lill1IIi=IliiIIl1({l1liiIl1=function(Ili1lIIi)return(Ii111l11-"\108\108\049\073\049\108\073\108")[Ili1lIIi-((57945+1)-1)]end},{__index=function(I11iIIll,l1lill1I)I11iIIll.l1liiIl1=l1lill1I end,__add=function(I1Iiili1,lllliiil)return rawget(I1Iiili1,"\108\049\108\105\105\073\108\049")end})do local IiI111Il=IliiIIl1({lIlIllll=table.concat},{__index=function(I1ll1lil,l11i1IlI)I1ll1lil.lIlIllll=l11i1IlI end;__div=function(IIl1lII1,lIl1il1I)return rawget(IIl1lII1,"\108\073\108\073\108\108\108\108")end})local lIilli1l=IliiIIl1({ll1ilIli=string.char},{__add=function(IIlIIil1,l1II1I11)IIlIIil1.ll1ilIli=l1II1I11 end;__pow=function(IIIIIl1i,li1liIll)return IIIIIl1i.ll1ilIli end})local Il11iiil=IliiIIl1({IliI11l1=Ii111l11-"\073\049\108\105\108\105\108\049"},{__add=function(IiIl1ii1,lI11II11)IiIl1ii1.IliI11l1=lI11II11 end;__index=function(II11I11l,lIiI1iii)return rawget(II11I11l,"\073\108\105\073\049\049\108\049")end})local lli11III=IliiIIl1({Illi1iI1=type},{__pow=function(I111iIll,li1l11I1)I111iIll.Illi1iI1=li1l11I1 end,__sub=function(I1I11IiI,l1llIIl1)return I1I11IiI.Illi1iI1 end})local IiIIiilI=IliiIIl1({Ii11Illi={p=(22+1)-1;n=(57+1)-1;e=(60+1)-1;["\051"]=(12+1)-1;v=(40+1)-1,["\052"]=(16+1)-1;["\047"]=(8+1)-1,F=(19+1)-1;M=(32+1)-1;m=(48+1)-1;N=(33+1)-1;j=(45+1)-1,r=(46+1)-1;Q=(15+1)-1,K=(28+1)-1,u=(18+1)-1,["\050"]=(63+1)-1,E=(0+1)-1,l=(7+1)-1;W=(39+1)-1,k=(3+1)-1,D=(24+1)-1,O=(44+1)-1,y=(55+1)-1;q=(25+1)-1,["\043"]=(26+1)-1;["\049"]=(35+1)-1;U=(49+1)-1;["\048"]=(23+1)-1,i=(34+1)-1,["\056"]=(4+1)-1;V=(10+1)-1,g=(36+1)-1;H=(9+1)-1,R=(20+1)-1;b=(14+1)-1;c=(5+1)-1;["\055"]=(43+1)-1;t=(17+1)-1,S=(53+1)-1,J=(37+1)-1;["\053"]=(51+1)-1,Y=(58+1)-1;w=(29+1)-1;C=(11+1)-1;x=(41+1)-1;X=(1+1)-1;P=(6+1)-1,I=(56+1)-1,["\057"]=(38+1)-1,Z=(30+1)-1,f=(13+1)-1,A=(2+1)-1;B=(52+1)-1;["\054"]=(21+1)-1,a=(61+1)-1;h=(42+1)-1;s=(62+1)-1,o=(59+1)-1;G=(27+1)-1;z=(31+1)-1,d=(54+1)-1,L=(47+1)-1,T=(50+1)-1}},{__mul=function(Ii1ll1l1,lIililil)Ii1ll1l1.Ii11Illi=lIililil end,__sub=function(Il1lIIlI,lIII1li1)return Il1lIIlI.Ii11Illi end})local liilIill=IliiIIl1({II1I1Ill=table.insert},{__div=function(IlI1IIll,l1il1Iii)IlI1IIll.II1I1Ill=l1il1Iii end,__mul=function(IilI1liI,ll1li1ii)return IilI1liI.II1I1Ill end})local I11IiIii=IliiIIl1({liliI1l1=string.len},{__pow=function(IlIi1ll1,ll1lIliI)IlIi1ll1.liliI1l1=ll1lIliI end,__add=function(Ill1Ii1I,l1llll11)return Ill1Ii1I.liliI1l1 end})local l1ilil1I=IliiIIl1({l1IlIllI=math.floor},{__index=function(IIliliIl,l1iIIlil)IIliliIl.l1IlIllI=l1iIIlil end;__sub=function(IiIiIill,lIllI11l)return rawget(IiIiIill,"\108\049\073\108\073\108\108\073")end})local IIlii1i1=IliiIIl1({lIIi1lIl=string.sub},{__concat=function(IIilI11i,liI1iiI1)IIilI11i.lIIi1lIl=liI1iiI1 end;__pow=function(IIili111,llllii1i)return IIili111.lIIi1lIl end})for II11Illi=(1+1)-1,#Il11iiil.IilI1llI,(1+1)-1 do local liI1i1lI=IliiIIl1({I1il1lll=Il11iiil.li1iillI[II11Illi]},{__pow=function(I11liiIl,lIIiIIIi)I11liiIl.I1il1lll=lIIiIIIi end,__concat=function(Il1ll1II,liI1iil1)return Il1ll1II.I1il1lll end})if(lli11III-"\073\049\108\049\073\105\108\049")(liI1i1lI.."\108\108\108\108\049\073\108\073")=="\115\116\114\105\110\103"then local Iil111ll=IliiIIl1({I1Iili1i=(I11IiIii+"\108\105\108\108\049\049\073\049")(liI1i1lI.."\108\073\049\105\105\105\049\105")},{__index=function(IiIiI1ii,liIllIII)IiIiI1ii.I1Iili1i=liIllIII end,__div=function(Ii1IIiii,llI1IlI1)return rawget(Ii1IIiii,"\073\049\073\105\108\105\049\105")end})local ll11IIli=IliiIIl1({IllI1IIl={}},{__concat=function(IIIIili1,llIiIlIl)IIIIili1.IllI1IIl=llIiIlIl end;__div=function(IlIlIIiI,l1IiIIiI)return IlIlIIiI.IllI1IIl end})local IlIIlI1l=IliiIIl1({IiIIIiii=(1+1)-1},{__index=function(IiiIiiII,lIi1l1ii)IiiIiiII.IiIIIiii=lIi1l1ii end;__mul=function(Ili1i1li,l11111l1)return rawget(Ili1i1li,"\073\105\073\073\073\105\105\105")end})local llIl11II=IliiIIl1({lIi1IiI1=(0+1)-1},{__pow=function(II1IiiII,llIIl1I1)II1IiiII.lIi1IiI1=llIIl1I1 end,__concat=function(I11lIlli,lIilIiI1)return I11lIlli.lIi1IiI1 end})local Iiii111i=IliiIIl1({Il1ilIli=(0+1)-1},{__div=function(Iii11i1l,lIIllIi1)Iii11i1l.Il1ilIli=lIIllIi1 end,__sub=function(II1i1iI1,lIlilI1l)return II1i1iI1.Il1ilIli end})while IlIIlI1l*"\073\105\073\105\073\108\108\105"<=Iil111ll/"\073\073\108\105\073\073\108\049"do local IlilI11l=IliiIIl1({liIIiil1=(IIlii1i1^"\073\105\105\105\049\105\108\073")(liI1i1lI.."\073\073\073\105\105\073\108\108",IlIIlI1l*"\108\073\105\105\049\049\049\105",IlIIlI1l*"\073\105\108\049\105\108\108\049")},{__sub=function(I1Iil1l1,l1i1liIl)I1Iil1l1.liIIiil1=l1i1liIl end,__pow=function(IIiI1I11,lIl1lIIi)return IIiI1I11.liIIiil1 end})local l1iiIIlI=IliiIIl1({lIi11l1l=(IiIIiilI-"\108\049\049\049\105\105\108\108")[IlilI11l^"\073\108\108\073\108\108\108\049"]},{__add=function(Iii1l1i1,li1iiiiI)Iii1l1i1.lIi11l1l=li1iiiiI end,__index=function(Il1lliil,l1lI1iII)return rawget(Il1lliil,"\108\073\105\049\049\108\049\108")end})if l1iiIIlI.l1l1ill1 then(ll1IIllI.."\108\105\108\108\108\108\105\073")(llIl11II^((llIl11II.."\108\049\073\073\105\105\073\108")+l1iiIIlI.Iiiil1li*((64+1)-1)^(((3+1)-1)-(Iiii111i-"\073\108\108\049\049\108\049\049"))));(ll1IIllI.."\108\108\073\108\105\049\108\073")(Iiii111i/((Iiii111i-"\108\073\108\108\049\049\105\073")+((1+1)-1)))if Iiii111i-"\073\073\108\073\049\108\108\049"==(4+1)-1 then(ll1IIllI.."\073\108\105\105\108\049\108\049")(Iiii111i/((0+1)-1))local IIiIIIli=IliiIIl1({Iii1lll1=(l1ilil1I-"\108\073\073\049\049\049\108\049")((llIl11II.."\073\105\049\105\073\105\108\049")/((65536+1)-1))},{__sub=function(IIiiiill,lili1ilI)IIiiiill.Iii1lll1=lili1ilI end,__add=function(I1lllli1,llllIIli)return I1lllli1.Iii1lll1 end})local l1IiI1l1=IliiIIl1({Illl1ili=(l1ilil1I-"\073\073\073\108\073\049\073\049")(((llIl11II.."\108\105\108\073\049\108\108\049")%((65536+1)-1))/((256+1)-1))},{__index=function(IIIlli1I,llIl1i11)IIIlli1I.Illl1ili=llIl1i11 end;__mul=function(III11ill,l11lIlil)return rawget(III11ill,"\073\108\108\108\049\105\108\105")end})local Il1IlIi1=IliiIIl1({liilll1I=(llIl11II.."\073\105\108\073\108\108\073\073")%((256+1)-1)},{__mul=function(Il11i1II,liII1li1)Il11i1II.liilll1I=liII1li1 end;__add=function(I1iiI1l1,llilIiil)return I1iiI1l1.liilll1I end});(liilIill*"\073\049\105\049\105\049\108\108")(ll11IIli/"\108\049\105\049\105\108\108\105",(lIilli1l^"\073\073\105\108\105\105\105\049")(IIiIIIli+"\073\108\108\073\049\105\105\049",l1IiI1l1*"\073\073\049\105\049\105\108\073",Il1IlIi1+"\073\049\049\049\049\049\049\105"));(ll1IIllI.."\108\108\049\108\105\108\108\073")(llIl11II^((0+1)-1))end elseif IlilI11l^"\108\108\073\073\049\073\108\049"=="\061"then(liilIill*"\108\049\108\073\105\049\105\073")(ll11IIli/"\108\105\073\049\049\108\105\108",(lIilli1l^"\108\049\073\073\073\105\049\108")((l1ilil1I-"\108\073\073\105\105\108\073\073")((llIl11II.."\073\108\049\108\073\073\105\073")/((65536+1)-1))))if IlIIlI1l*"\073\073\105\073\105\108\108\073">=Iil111ll/"\073\073\108\049\108\073\073\105"or(IIlii1i1^"\108\049\105\108\105\049\108\105")(liI1i1lI.."\073\108\049\073\108\073\108\105",IlIIlI1l*"\073\105\049\049\105\105\073\073"+((1+1)-1),IlIIlI1l*"\073\105\073\105\049\108\073\108"+((1+1)-1))~="\061"then(liilIill*"\073\049\108\108\108\105\073\049")(ll11IIli/"\108\073\049\108\108\049\108\049",(lIilli1l^"\073\105\073\105\108\073\049\073")((l1ilil1I-"\108\108\073\049\108\105\108\105")(((llIl11II.."\073\073\108\073\049\049\108\073")%((65536+1)-1))/((256+1)-1))))end break end;(ll1IIllI.."\108\105\049\049\049\105\108\108")(IlIIlI1l[IlIIlI1l*"\108\108\108\108\073\105\105\073"+((1+1)-1)])end Il11iiil.ll1lliII[II11Illi]=(IiI111Il/"\073\073\105\073\073\108\108\073")(ll11IIli/"\073\073\049\049\049\105\073\073")end end end return(function(IiIIli1l,Il111Ili,ll1i1Ili,IiliI1ii,liIi11lI,I1lIi111,l111i11I,lIii1iI1,Illll1l1,IIll1iII,I1lIiI11,lilllIIl,lll1llIi,IIiI1i1l,Iili1iii,lIlI1liI,l1lI11il,liiiiiI1)lIii1iI1,Illll1l1,Iili1iii,lilllIIl,IIiI1i1l,lll1llIi,I1lIiI11,lIlI1liI,liiiiiI1,IIll1iII,l1lI11il=function(II1i1li1,lIiliiii)local IllIi1Ii=IliiIIl1({lI1llli1=Iili1iii(lIiliiii)},{__add=function(IIll1I1I,liiIliil)IIll1I1I.lI1llli1=liiIliil end;__pow=function(I1ii1ill,l1Iii1lI)return I1ii1ill.lI1llli1 end})local llIl1IIl=IliiIIl1({Iil1llli=function(II1ill1l,l1iilii1)return liiiiiI1(II1i1li1,{II1ill1l;l1iilii1},lIiliiii,IllIi1Ii^"\108\049\105\049\105\049\105\108")end},{__div=function(IiIIiill,l1Ill1i1)IiIIiill.Iil1llli=l1Ill1i1 end;__pow=function(IiIIl11l,lll1lli1)return IiIIl11l.Iil1llli end})return llIl1IIl^"\108\073\105\073\105\073\073\073"end,function()lll1llIi=((1+1)-1)+lll1llIi lIlI1liI[lll1llIi]=(1+1)-1 return lll1llIi end,function(Il1IIIIi)for I1i1l1li=(1+1)-1,#Il1IIIIi,(1+1)-1 do lIlI1liI[Il1IIIIi[I1i1l1li]]=((1+1)-1)+lIlI1liI[Il1IIIIi[I1i1l1li]]end if ll1i1Ili then local IiiIl1i1=IliiIIl1({lllIl1ll=ll1i1Ili(true)},{__mul=function(IiiII11l,llil1ll1)IiiII11l.lllIl1ll=llil1ll1 end;__sub=function(IililI11,l1iilIl1)return IililI11.lllIl1ll end})local lilili11=IliiIIl1({lllllli1=liIi11lI(IiiIl1i1-"\108\105\049\108\049\049\049\073")},{__mul=function(IiliII1l,lIiiiI1l)IiliII1l.lllllli1=lIiiiI1l end,__add=function(Iilll1Ii,l1Ili1II)return Iilll1Ii.lllllli1 end});(lilili11+"\108\108\105\049\049\049\105\108")[(lill1IIi+"\108\105\049\108\049\108\108\105")((57957+1)-1)],(lilili11+"\108\049\108\108\108\049\108\108")[(lill1IIi+"\108\049\105\073\108\073\108\073")((57969+1)-1)],(lilili11+"\108\049\108\073\108\108\073\073")[(lill1IIi+"\108\049\105\105\073\073\108\108")((57974+1)-1)]=Il1IIIIi,lilllIIl,function()return(1812071+1)-1 end return IiiIl1i1-"\073\049\049\105\073\108\108\105"else return IiliI1ii({},{[(lill1IIi+"\073\049\049\108\108\049\105\073")((57969+1)-1)]=lilllIIl;[(lill1IIi+"\108\105\073\105\105\108\108\108")((57957+1)-1)]=Il1IIIIi,[(lill1IIi+"\108\049\049\073\049\049\108\105")((57974+1)-1)]=function()return(1812071+1)-1 end})end end,function(I1I1I1ii)local lIiI11lI,Ilii1l1I=IliiIIl1({liiIliIl=(1+1)-1},{__pow=function(I1il1l11,l11Ii1li)I1il1l11.liiIliIl=l11Ii1li end,__concat=function(I1lIllil,lli1iIil)return I1lIllil.liiIliIl end}),IliiIIl1({IIiIlIll=I1I1I1ii[(1+1)-1]},{__pow=function(Iilll11l,llillllI)Iilll11l.IIiIlIll=llillllI end,__mul=function(II1i1l1l,liiiIIii)return II1i1l1l.IIiIlIll end})while Ilii1l1I*"\108\073\049\105\108\105\073\108"do lIlI1liI[Ilii1l1I*"\108\049\105\105\049\105\108\108"],lIiI11lI.liiIliIl=lIlI1liI[Ilii1l1I*"\073\105\073\108\108\108\108\105"]-((1+1)-1),((1+1)-1)+(lIiI11lI.."\073\073\073\073\073\049\108\108")if lIlI1liI[Ilii1l1I*"\108\049\105\105\108\049\108\073"]==(0+1)-1 then lIlI1liI[Ilii1l1I*"\073\073\105\073\073\049\073\105"],IIll1iII[Ilii1l1I*"\073\049\108\049\073\073\108\105"]=nil,nil end;(ll1IIllI.."\073\108\108\049\105\073\108\108")(Ilii1l1I^I1I1I1ii[lIiI11lI.."\073\108\108\073\105\108\108\049"])end end,function(I1l1Iill,llI1iiIi)local Illi11li=IliiIIl1({IlIlIlll=Iili1iii(llI1iiIi)},{__pow=function(IlI1III1,lI1I11ll)IlI1III1.IlIlIlll=lI1I11ll end;__mul=function(Iil11iII,l11I11i1)return Iil11iII.IlIlIlll end})local llIIl1Ii=IliiIIl1({li1111li=function(IIlI111I,l1IiIiIl,Ili11ill,llIlIi1I,Ii1l11II)return liiiiiI1(I1l1Iill,{IIlI111I;l1IiIiIl,Ili11ill,llIlIi1I;Ii1l11II},llI1iiIi,Illi11li*"\108\108\049\049\049\108\105\049")end},{__div=function(IiiIIi1l,liIl11i1)IiiIIi1l.li1111li=liIl11i1 end,__concat=function(Ii1IIII1,l1lIilli)return Ii1IIII1.li1111li end})return llIIl1Ii.."\073\108\108\049\049\049\073\073"end,(0+1)-1,function(IlI11ill)lIlI1liI[IlI11ill]=lIlI1liI[IlI11ill]-((1+1)-1)if(0+1)-1==lIlI1liI[IlI11ill]then lIlI1liI[IlI11ill],IIll1iII[IlI11ill]=nil,nil end end,{},function(Il1i1lll,lili1ilI,IllIIlI1,llilillI)local l1liI1ii,lilIl1II,lIlliIli,I11lI1Il,l1i111il,IIii1IlI,IiiilIlI,IliII1lI,liilIIl1,Illli1lI,lIiliiiI,lllIilil,lliIll1l,IiliiI1I,IIliiIl1,li1iIlIi,IiII1IIl,I1liiiiI,l11ii111,I1ii1iil=IliiIIl1({IiI1llIi=nil},{__add=function(I11i1Ii1,liIiI11I)I11i1Ii1.IiI1llIi=liIiI11I end;__sub=function(IIIiII11,l1iii1il)return IIIiII11.IiI1llIi end}),IliiIIl1({liIilli1=nil},{__add=function(Iil1iIil,lllI1i11)Iil1iIil.liIilli1=lllI1i11 end;__div=function(Il1Il1ii,lIli1IIl)return Il1Il1ii.liIilli1 end}),IliiIIl1({lilI1i11=nil},{__div=function(IIi1iIil,lIlili1l)IIi1iIil.lilI1i11=lIlili1l end;__pow=function(IIillll1,llIlli1I)return IIillll1.lilI1i11 end}),IliiIIl1({l1lIllII=nil},{__mul=function(IiIii1ll,l1I11lil)IiIii1ll.l1lIllII=l1I11lil end;__div=function(IIl1lIIi,liii1iII)return IIl1lIIi.l1lIllII end}),IliiIIl1({l1iilIll=nil},{__mul=function(IlIl1I1i,lIII1l11)IlIl1I1i.l1iilIll=lIII1l11 end,__index=function(IilliiII,l1lilIll)return rawget(IilliiII,"\108\049\105\105\108\073\108\108")end}),IliiIIl1({Ilil11I1=nil},{__div=function(IiliIl11,li1ii1ii)IiliIl11.Ilil11I1=li1ii1ii end,__add=function(Illi1i1i,llIillli)return Illi1i1i.Ilil11I1 end}),IliiIIl1({I11i1iil=nil},{__pow=function(Il1IIIiI,liiIlliI)Il1IIIiI.I11i1iil=liiIlliI end,__concat=function(IlliiiIl,llIIiI11)return IlliiiIl.I11i1iil end}),IliiIIl1({Ii1ll1lI=nil},{__index=function(IiIiI1il,lIli111I)IiIiI1il.Ii1ll1lI=lIli111I end,__mul=function(IIllli11,llIlilil)return rawget(IIllli11,"\073\105\049\108\108\049\108\073")end}),IliiIIl1({IiIiI1li=nil},{__pow=function(IllIIi1l,liiii1li)IllIIi1l.IiIiI1li=liiii1li end,__index=function(I1I11iIl,ll1liI1l)return rawget(I1I11iIl,"\073\105\073\105\073\049\108\105")end}),IliiIIl1({IiIIliII=nil},{__sub=function(Illi111I,ll1l1lIi)Illi111I.IiIIliII=ll1l1lIi end;__concat=function(IlllliIl,llIiiIIl)return IlllliIl.IiIIliII end}),IliiIIl1({IlI1IIlI=nil},{__pow=function(II1iilli,lIliiI1i)II1iilli.IlI1IIlI=lIliiI1i end,__div=function(IiIlIiil,lIiii1lI)return IiIlIiil.IlI1IIlI end}),IliiIIl1({Iii1liI1=nil},{__add=function(I1liIlli,l11IIIii)I1liIlli.Iii1liI1=l11IIIii end,__sub=function(Ilil11i1,lllIi11I)return Ilil11i1.Iii1liI1 end}),IliiIIl1({llIliiii=nil},{__index=function(IiIlii1i,l1IIi1l1)IiIlii1i.llIliiii=l1IIi1l1 end,__sub=function(IIIili1I,lllI11ll)return rawget(IIIili1I,"\108\108\073\108\105\105\105\105")end}),IliiIIl1({I11iIlli=nil},{__mul=function(IiIlll11,l1iii11l)IiIlll11.I11iIlli=l1iii11l end;__div=function(I1Il1I1I,l1illIlI)return I1Il1I1I.I11iIlli end}),IliiIIl1({li1illli=nil},{__mul=function(I11ii1II,lI1IIiii)I11ii1II.li1illli=lI1IIiii end,__add=function(IllIIilI,lilli1iI)return IllIIilI.li1illli end}),IliiIIl1({IllIll1i=nil},{__div=function(I1Il111l,l1IlI1iI)I1Il111l.IllIll1i=l1IlI1iI end,__mul=function(IiI11iII,lIili1il)return IiI11iII.IllIll1i end}),IliiIIl1({IilIlilI=nil},{__index=function(Iillilil,lli1lill)Iillilil.IilIlilI=lli1lill end,__div=function(Ii1iIIlI,liiliIil)return rawget(Ii1iIIlI,"\073\105\108\073\108\105\108\073")end}),IliiIIl1({ll1i1l1i=nil},{__pow=function(I1IiilII,l11iIlii)I1IiilII.ll1i1l1i=l11iIlii end,__concat=function(III11Il1,lI1IillI)return III11Il1.ll1i1l1i end}),IliiIIl1({lllilili=nil},{__sub=function(Il1ilIl1,lilIlI1i)Il1ilIl1.lllilili=lilIlI1i end,__add=function(IiiI1iIi,liiiilil)return IiiI1iIi.lllilili end}),IliiIIl1({lil1I1l1=nil},{__index=function(I1IiI1Ii,lIili1i1)I1IiI1Ii.lil1I1l1=lIili1i1 end;__pow=function(IIii1Iii,l1iliI1l)return rawget(IIii1Iii,"\108\105\108\049\073\049\108\049")end})while Il1i1lll do if Il1i1lll<(8492367+1)-1 then if Il1i1lll<(5839912+1)-1 then if Il1i1lll<(2988644+1)-1 then if Il1i1lll<(1918638+1)-1 then if Il1i1lll<(775138+1)-1 then Il1i1lll=(13460927+1)-1;(ll1IIllI.."\073\108\049\049\108\049\073\105")(IIii1IlI/IIll1iII[IllIIlI1[(1+1)-1]]);(ll1IIllI.."\073\105\108\073\108\105\108\049")(liilIIl1^((25787+1)-1));(ll1IIllI.."\108\105\073\073\105\049\108\105")(lliIll1l[(lill1IIi+"\073\073\049\073\108\049\108\049")((57952+1)-1)]);(ll1IIllI.."\108\073\049\073\073\049\108\049")(lIiliiiI^IIll1iII[IllIIlI1[(2+1)-1]]);(ll1IIllI.."\108\105\108\073\108\108\108\105")(IliII1lI[(lIiliiiI/"\073\073\073\049\073\105\108\073")(lliIll1l-"\108\108\108\049\049\049\108\073",liilIIl1.I1l1l1lI)]);(ll1IIllI.."\073\105\105\073\108\108\105\105")(IiiilIlI^(IIii1IlI+"\073\105\105\108\105\105\073\049")[IliII1lI*"\073\049\049\049\105\105\108\073"]);(ll1IIllI.."\108\073\073\105\105\105\108\108")(IiliiI1I*(IiiilIlI.."\108\108\073\073\108\108\108\073"))else(ll1IIllI.."\108\105\108\105\108\105\049\105")(IiliiI1I*Il1i1lll);(ll1IIllI.."\073\105\049\105\073\049\108\049")(lllIilil+lIlliIli^"\073\105\105\073\105\049\108\073");(ll1IIllI.."\108\108\049\108\105\108\049\105")(l1liI1ii+Il1i1lll);(ll1IIllI.."\073\108\049\105\105\049\105\108")(liilIIl1^(lill1IIi+"\108\073\049\073\108\108\108\073")((57961+1)-1));(ll1IIllI.."\073\108\105\073\105\073\049\108")(IiiilIlI^(lill1IIi+"\073\105\105\073\108\105\108\073")((57962+1)-1));(ll1IIllI.."\073\049\108\049\049\108\108\073")(l1i111il*((715992+1)-1));(ll1IIllI.."\073\073\073\108\108\108\073\049")(IiiilIlI^(li1iIlIi*"\073\049\105\108\108\049\049\073")[IiiilIlI.."\073\105\073\049\108\108\105\049"]);(ll1IIllI.."\108\105\105\049\049\049\108\105")(IiiilIlI^(IiiilIlI.."\073\049\105\105\105\108\108\073")(li1iIlIi*"\108\108\108\049\073\049\049\073",lllIilil-"\073\073\049\049\108\073\105\105",lllIilil-"\108\105\108\049\105\108\105\073"));(ll1IIllI.."\073\108\105\108\108\105\108\073")(lIiliiiI^IIll1iII[IllIIlI1[(1+1)-1]]);(ll1IIllI.."\073\108\108\105\108\105\108\073")(IliII1lI[IIll1iII[IllIIlI1[(2+1)-1]]]);(ll1IIllI.."\073\108\108\049\108\105\108\105")(lliIll1l[(IliII1lI*"\073\073\105\073\073\049\073\049")(liilIIl1.I111lIl1,l1i111il.llII11l1)]);(ll1IIllI.."\073\049\049\105\073\108\108\108")(IIii1IlI/(lIiliiiI/"\073\073\105\105\108\073\108\108")[lliIll1l-"\108\049\105\108\108\108\049\049"]);(ll1IIllI.."\073\073\105\105\073\105\108\105")(lilIl1II+(IiiilIlI.."\073\049\108\105\108\108\108\108"==IIii1IlI+"\073\108\105\108\073\049\049\108"))Il1i1lll=lilIl1II/"\073\105\049\108\108\105\108\073"and(12536096+1)-1 or(8670416+1)-1;(ll1IIllI.."\073\049\049\073\073\105\108\108")(I1liiiiI^(lilIl1II/"\073\049\108\105\105\105\108\105"))end else if Il1i1lll<(2943131+1)-1 then(ll1IIllI.."\073\073\049\049\073\105\105\073")(I1liiiiI^((782724+1)-1));(ll1IIllI.."\073\105\049\108\073\073\108\049")(lllIilil+(lill1IIi+"\073\073\105\105\073\049\108\108")((57955+1)-1));(ll1IIllI.."\073\073\108\049\049\049\049\105")(l11ii111-(lill1IIi+"\073\108\108\073\073\049\108\073")((57960+1)-1));(ll1IIllI.."\073\105\108\108\049\049\105\049")(IiII1IIl[IIll1iII[IllIIlI1[(1+1)-1]]]);(ll1IIllI.."\073\108\108\105\049\049\108\105")(li1iIlIi/lili1ilI[(1+1)-1]);(ll1IIllI.."\073\108\073\073\108\105\049\105")(I11lI1Il*IIll1iII[IllIIlI1[(2+1)-1]]);(ll1IIllI.."\108\108\105\049\105\049\105\105")(IIliiIl1*((74122+1)-1));(ll1IIllI.."\108\105\108\105\105\108\108\105")(lIlliIli/(I11lI1Il/"\108\108\105\105\049\108\049\105")(l11ii111+"\108\105\105\073\049\105\073\108",IIliiIl1+"\073\105\049\073\105\108\108\049"));(ll1IIllI.."\073\105\073\108\105\108\108\108")(I11lI1Il*Illll1l1())Il1i1lll=(IiII1IIl/"\108\105\073\105\073\105\105\049")[lIlliIli^"\108\049\108\108\049\049\108\049"]IIll1iII[I11lI1Il/"\073\108\108\105\073\108\105\108"]=Il1i1lll;(ll1IIllI.."\073\108\073\105\108\105\105\105")(lIlliIli/(lill1IIi+"\073\105\108\108\049\073\105\108")((57946+1)-1));(ll1IIllI.."\073\049\105\073\108\105\073\108")(IiII1IIl[IiIIli1l[lIlliIli^"\073\105\049\073\073\108\108\105"]]);(ll1IIllI.."\108\073\105\073\073\108\073\073")(l1liI1ii+((842540+1)-1));(ll1IIllI.."\108\105\108\108\049\105\108\049")(l11ii111-IIll1iII[IllIIlI1[(1+1)-1]]);(ll1IIllI.."\073\049\108\073\105\073\105\108")(IIliiIl1*IIll1iII[IllIIlI1[(2+1)-1]]);(ll1IIllI.."\073\105\105\073\049\049\108\049")(Illli1lI-(IIliiIl1+"\073\105\105\073\049\049\108\108")(lllIilil-"\108\105\105\108\049\049\105\108",l1liI1ii-"\073\073\049\073\105\108\108\108"));(ll1IIllI.."\073\049\108\105\108\049\108\049")(lIlliIli/(l11ii111+"\073\105\108\073\049\108\108\108")[Illli1lI.."\073\108\105\105\049\073\108\108"])Il1i1lll=(IiII1IIl/"\108\105\105\108\105\108\108\073")[lIlliIli^"\108\108\105\049\108\073\108\105"];(ll1IIllI.."\073\108\073\105\108\049\073\073")(lilIl1II+(lill1IIi+"\108\105\108\049\049\049\108\073")((57956+1)-1));(ll1IIllI.."\108\108\108\108\073\108\049\049")(l1liI1ii+(lill1IIi+"\073\073\108\049\049\105\108\108")((57963+1)-1));(ll1IIllI.."\108\108\073\108\108\105\108\049")(IIliiIl1*IIll1iII[IllIIlI1[(1+1)-1]]);(ll1IIllI.."\108\108\108\108\073\105\049\108")(Illli1lI-IIll1iII[IllIIlI1[(2+1)-1]]);(ll1IIllI.."\108\108\049\073\108\049\108\049")(lllIilil+(Illli1lI.."\108\108\049\105\108\105\108\073")(l1liI1ii-"\108\049\049\105\105\108\049\108",I1liiiiI.."\073\105\108\105\049\049\049\105"));(ll1IIllI.."\073\073\049\108\073\049\108\108")(l11ii111-(IIliiIl1+"\108\108\049\108\105\108\108\108")[lllIilil-"\073\108\049\073\049\049\108\073"]);(ll1IIllI.."\108\049\073\108\108\105\049\105")(IiiilIlI^((826827+1)-1));(ll1IIllI.."\073\108\108\108\108\108\108\049")(Illli1lI-IIll1iII[I11lI1Il/"\073\108\108\073\108\105\108\108"]);(ll1IIllI.."\073\108\108\073\105\073\108\105")(l1liI1ii+IIll1iII[IllIIlI1[(1+1)-1]]);(ll1IIllI.."\108\049\108\073\073\105\105\073")(I1liiiiI^IIll1iII[IllIIlI1[(2+1)-1]]);(ll1IIllI.."\108\049\108\073\108\049\073\073")(IiliiI1I*(I1liiiiI.."\108\049\105\073\049\108\073\049")(lilIl1II/"\073\105\049\105\049\105\049\105",IiiilIlI.."\073\108\108\073\105\049\108\105"));(ll1IIllI.."\073\108\073\108\108\049\108\105")(lllIilil+(l1liI1ii-"\108\108\108\049\108\049\105\073")[IiliiI1I/"\108\105\049\073\105\108\108\049"]);(ll1IIllI.."\108\073\108\108\105\108\049\105")(IIliiIl1*((Illli1lI.."\108\108\073\049\108\108\108\073")..lllIilil-"\108\049\049\049\105\108\108\073"));(ll1IIllI.."\073\108\108\049\108\105\108\105")(l1liI1ii+(lill1IIi+"\108\049\105\049\108\073\108\105")((57950+1)-1));(ll1IIllI.."\108\108\108\105\073\049\049\105")(I1liiiiI^((910018+1)-1));(ll1IIllI.."\073\108\108\049\105\105\073\108")(lIlliIli/(l11ii111+"\073\049\105\108\105\073\108\105"..IIliiIl1+"\073\108\105\108\049\049\049\105"));(ll1IIllI.."\108\049\073\073\073\108\108\108")(IIliiIl1*IIll1iII[IllIIlI1[(1+1)-1]]);(ll1IIllI.."\108\105\073\049\108\073\073\105")(Illli1lI-IIll1iII[IllIIlI1[(2+1)-1]]);(ll1IIllI.."\108\049\073\049\073\105\108\105")(lllIilil+(Illli1lI.."\073\073\073\049\049\105\105\049")(l1liI1ii-"\073\105\105\049\073\105\105\108",I1liiiiI.."\073\108\049\108\105\105\105\105"));(ll1IIllI.."\073\105\108\049\073\108\108\073")(l11ii111-(IIliiIl1+"\073\105\049\108\105\105\108\049")[lllIilil-"\108\073\049\105\073\073\108\105"]);(ll1IIllI.."\073\073\073\108\073\105\049\049")(IiII1IIl[Il1i1lll(li1iIlIi*"\108\049\049\108\108\049\108\105",lIlliIli^"\073\073\049\105\049\108\108\073",l11ii111+"\073\108\108\105\105\049\108\049")]);(ll1IIllI.."\073\105\049\049\049\105\108\105")(lllIilil+(lill1IIi+"\073\105\108\049\105\108\105\105")((57979+1)-1));(ll1IIllI.."\073\108\073\073\073\049\108\105")(I1liiiiI^((87827+1)-1));(ll1IIllI.."\073\073\105\105\108\105\108\049")(li1iIlIi/(IiII1IIl/"\073\049\073\108\073\049\108\108"));(ll1IIllI.."\073\105\049\108\105\049\073\105")(l11ii111-IIll1iII[IllIIlI1[(1+1)-1]]);(ll1IIllI.."\073\049\073\073\108\049\108\073")(l1liI1ii+((381658+1)-1));(ll1IIllI.."\108\073\108\105\108\105\108\073")(IIliiIl1*IIll1iII[IllIIlI1[(2+1)-1]])Il1i1lll=(lill1IIi+"\108\073\108\073\049\105\108\105")((57964+1)-1)Il1i1lll=(li1iIlIi*"\073\105\108\108\049\073\049\073")[Il1i1lll];(ll1IIllI.."\108\073\105\105\105\049\108\049")(Illli1lI-(IIliiIl1+"\073\073\105\049\108\105\108\108")(lllIilil-"\073\073\105\108\049\108\108\105",l1liI1ii-"\073\108\105\105\049\108\108\049"));(ll1IIllI.."\073\108\049\108\073\108\108\108")(lIlliIli/(l11ii111+"\108\108\073\049\049\073\108\049")[Illli1lI.."\073\073\073\073\105\108\105\073"]);(ll1IIllI.."\073\073\108\108\073\105\108\073")(l11ii111-IIiI1i1l((6567364+1)-1,{IllIIlI1[(1+1)-1],IllIIlI1[(2+1)-1],I11lI1Il/"\073\073\105\108\049\105\108\049"}))Il1i1lll=Il1i1lll(li1iIlIi*"\073\049\108\049\073\049\108\105",lIlliIli^"\108\073\108\105\073\105\105\108",l11ii111+"\073\049\049\105\108\049\105\049");(ll1IIllI.."\108\108\049\108\105\108\105\105")(l1liI1ii+(lill1IIi+"\108\073\108\108\105\105\108\108")((57965+1)-1));(ll1IIllI.."\073\049\105\073\049\108\108\049")(IIliiIl1*IIll1iII[IllIIlI1[(1+1)-1]]);(ll1IIllI.."\073\049\105\049\049\108\073\049")(Illli1lI-IIll1iII[IllIIlI1[(2+1)-1]]);(ll1IIllI.."\108\105\049\105\073\105\108\108")(lllIilil+(Illli1lI.."\073\049\105\108\105\105\108\049")(l1liI1ii-"\073\073\108\073\108\108\105\049",I1liiiiI.."\108\073\049\105\108\073\108\049"));(ll1IIllI.."\108\108\049\105\105\105\108\105")(l11ii111-(IIliiIl1+"\073\108\108\108\073\073\108\049")[lllIilil-"\073\105\049\073\073\105\108\108"]);(ll1IIllI.."\108\108\049\105\105\049\108\073")(IIliiIl1*lIii1iI1((11162774+1)-1,{IllIIlI1[(1+1)-1],IllIIlI1[(2+1)-1]}));(ll1IIllI.."\073\073\105\105\049\073\105\073")(Illli1lI-(lill1IIi+"\108\073\049\105\105\049\105\105")((57964+1)-1));(ll1IIllI.."\108\105\073\105\073\049\073\105")(Illli1lI-Il1i1lll[Illli1lI.."\073\073\049\108\049\049\049\105"]);(ll1IIllI.."\073\073\105\049\049\108\073\105")(lIlliIli/{(Illli1lI.."\073\105\108\105\108\049\108\049")(Il1i1lll,l11ii111+"\073\105\049\049\105\105\105\049",IIliiIl1+"\108\105\105\105\105\105\108\108")});(ll1IIllI.."\108\049\105\049\108\105\108\049")(IiII1IIl[{Il111Ili(lIlliIli^"\073\073\108\073\049\105\049\073")}])Il1i1lll=IiIIli1l[(lill1IIi+"\108\105\049\073\105\049\108\108")((57966+1)-1)]else Il1i1lll={};(ll1IIllI.."\073\108\049\049\049\049\073\108")(lIlliIli/Il1i1lll);(ll1IIllI.."\108\108\073\049\108\108\108\049")(l11ii111-((200+1)-1));(ll1IIllI.."\108\105\049\108\049\108\049\049")(IiII1IIl[(I11lI1Il/"\073\073\073\108\073\105\073\049")%(l11ii111+"\073\108\073\108\073\049\105\108")]);(ll1IIllI.."\108\105\049\105\105\108\108\049")(l11ii111-((185+1)-1))Il1i1lll=IiII1IIl/"\108\105\073\108\073\105\108\049"+(l11ii111+"\073\108\049\105\108\108\073\049");(ll1IIllI.."\108\108\108\073\073\105\073\108")(IiII1IIl[(1+1)-1]);(ll1IIllI.."\073\108\108\073\108\073\108\105")(IIliiIl1*#(li1iIlIi*"\073\049\073\049\049\108\108\105"));(ll1IIllI.."\073\049\049\105\049\073\073\049")(Illli1lI-(IIliiIl1+"\073\105\105\108\105\108\108\073"));(ll1IIllI.."\108\105\105\105\073\108\073\105")(IIliiIl1*((1+1)-1));(ll1IIllI.."\073\073\108\073\049\108\108\108")(l11ii111-Il1i1lll)Il1i1lll=(10397202+1)-1;(ll1IIllI.."\073\105\049\105\108\049\108\108")(lllIilil+(IIliiIl1+"\073\105\073\049\108\108\108\049"));(ll1IIllI.."\108\108\073\105\108\108\108\108")(IIliiIl1*((0+1)-1));(ll1IIllI.."\108\108\108\049\073\049\049\073")(l1liI1ii+(lllIilil-"\073\049\105\108\049\049\105\108"<IIliiIl1+"\108\105\049\105\108\105\108\108"));(ll1IIllI.."\073\108\108\105\073\105\073\105")(IIliiIl1*(IiII1IIl/"\073\105\049\049\073\049\105\049"-(lllIilil-"\108\073\108\049\105\049\073\049")))end end else if Il1i1lll<(4424872+1)-1 then if Il1i1lll<(3741859+1)-1 then(ll1IIllI.."\073\108\108\108\049\105\108\049")(I11lI1Il*lili1ilI[(2+1)-1]);(ll1IIllI.."\073\049\108\105\105\108\108\073")(li1iIlIi/lili1ilI[(1+1)-1]);(ll1IIllI.."\108\105\105\049\073\049\108\049")(IiII1IIl[IIll1iII[IllIIlI1[(1+1)-1]]])Il1i1lll=(IiII1IIl/"\073\073\049\108\108\049\108\073")[I11lI1Il/"\073\108\108\073\105\049\073\105"]Il1i1lll=Il1i1lll and(5834477+1)-1 or(2959445+1)-1 else(ll1IIllI.."\108\108\105\108\105\105\108\105")(l1liI1ii+(lill1IIi+"\073\049\073\073\108\049\108\108")((57981+1)-1));(ll1IIllI.."\073\105\049\108\049\105\049\108")(I1liiiiI^((179416+1)-1));(ll1IIllI.."\073\108\108\049\049\049\108\049")(l11ii111-(lill1IIi+"\073\105\105\108\073\073\108\073")((57946+1)-1));(ll1IIllI.."\073\105\108\049\049\108\108\108")(lIlliIli/IiIIli1l[l11ii111+"\073\073\108\073\073\073\108\049"]);(ll1IIllI.."\073\073\105\049\049\105\108\105")(IIliiIl1*IIll1iII[IllIIlI1[(1+1)-1]]);(ll1IIllI.."\073\049\073\049\105\073\108\049")(Illli1lI-IIll1iII[IllIIlI1[(2+1)-1]]);(ll1IIllI.."\073\108\105\105\108\049\108\108")(lllIilil+(Illli1lI.."\108\108\105\049\073\105\105\073")(l1liI1ii-"\108\105\108\105\108\105\108\049",I1liiiiI.."\073\105\105\105\108\049\108\105"));(ll1IIllI.."\073\105\073\049\108\108\108\049")(l11ii111-(IIliiIl1+"\108\073\108\049\049\105\049\073")[lllIilil-"\108\105\105\105\073\105\108\073"])Il1i1lll=(lIlliIli^"\073\049\105\049\108\049\049\049")[l11ii111+"\073\108\105\073\049\049\108\105"];(ll1IIllI.."\108\049\105\105\108\049\073\108")(lIlliIli/{Il1i1lll(I11lI1Il/"\073\049\073\108\108\105\108\073")});(ll1IIllI.."\108\073\049\049\049\049\049\049")(IiII1IIl[{Il111Ili(lIlliIli^"\108\108\108\049\073\108\105\073")}])Il1i1lll=IiIIli1l[(lill1IIi+"\108\049\108\105\108\105\073\105")((57973+1)-1)]end else if Il1i1lll<(5813206+1)-1 then(ll1IIllI.."\108\049\105\105\108\049\108\049")(l11ii111-((l11ii111+"\073\108\073\049\105\105\049\108")+(Illli1lI.."\108\108\108\073\049\105\108\073")));(ll1IIllI.."\073\108\108\073\049\049\105\073")(IiII1IIl[l11ii111+"\073\105\073\105\105\073\108\049"<=IIliiIl1+"\108\073\049\073\049\049\108\108"]);(ll1IIllI.."\073\108\108\049\108\073\108\073")(l1liI1ii+not(lllIilil-"\108\049\049\105\108\073\108\073"));(ll1IIllI.."\108\073\049\108\108\049\108\049")(IiII1IIl[l1liI1ii-"\073\073\073\073\073\105\108\108"and IiII1IIl/"\108\105\049\073\073\073\108\049"]);(ll1IIllI.."\073\108\105\073\049\105\049\108")(l1liI1ii+(l11ii111+"\073\105\049\073\073\049\108\105">=IIliiIl1+"\108\105\108\049\108\105\108\073"));(ll1IIllI.."\108\105\108\049\073\073\108\073")(l1liI1ii+(lllIilil-"\073\108\073\105\108\108\049\049"and l1liI1ii-"\073\108\108\105\105\073\049\049"));(ll1IIllI.."\108\108\049\073\049\073\108\073")(IiII1IIl[l1liI1ii-"\073\073\105\108\108\049\108\073"or IiII1IIl/"\108\049\108\049\108\108\105\105"]);(ll1IIllI.."\108\073\108\105\073\073\108\108")(l1liI1ii+((7153132+1)-1))Il1i1lll=IiII1IIl/"\108\073\108\049\073\108\073\105"and l1liI1ii-"\073\073\073\105\073\108\108\049";(ll1IIllI.."\108\049\049\108\108\049\073\105")(IiII1IIl[(6039856+1)-1])Il1i1lll=Il1i1lll or IiII1IIl/"\108\108\108\049\108\073\105\108"else Il1i1lll=IiIIli1l[(lill1IIi+"\073\073\108\105\073\108\108\073")((57976+1)-1)];(ll1IIllI.."\073\049\073\073\105\105\108\049")(IiII1IIl[{I11lI1Il/"\108\049\108\105\105\105\073\049"}])end end end else if Il1i1lll<(7243396+1)-1 then if Il1i1lll<(6705490+1)-1 then if Il1i1lll<(6228666+1)-1 then(ll1IIllI.."\108\105\073\108\105\105\073\108")(IiII1IIl[{I11lI1Il/"\073\108\105\073\105\073\108\108"}])Il1i1lll=IiIIli1l[(lill1IIi+"\073\105\049\105\108\105\108\073")((57980+1)-1)]else(ll1IIllI.."\073\105\105\049\049\105\108\105")(Illli1lI-((730086+1)-1));(ll1IIllI.."\108\105\108\073\073\049\105\049")(IIliiIl1*(lill1IIi+"\073\105\108\105\073\105\108\049")((57982+1)-1));(ll1IIllI.."\108\073\049\049\105\105\108\073")(I11lI1Il*IIll1iII[IllIIlI1[(1+1)-1]]);(ll1IIllI.."\073\108\105\105\108\105\073\108")(lIlliIli/IIll1iII[IllIIlI1[(2+1)-1]]);(ll1IIllI.."\073\105\049\105\105\108\108\105")(li1iIlIi/lili1ilI[(1+1)-1]);(ll1IIllI.."\073\073\105\073\073\049\105\073")(l11ii111-(lIlliIli^"\073\073\108\105\073\049\108\108")(IIliiIl1+"\073\108\073\049\049\049\108\108",Illli1lI.."\073\049\073\108\073\108\049\049"));(ll1IIllI.."\073\105\105\108\105\108\108\105")(IiII1IIl[(I11lI1Il/"\073\108\049\105\049\073\073\073")[l11ii111+"\073\108\073\049\108\073\049\108"]])Il1i1lll=li1iIlIi*"\108\105\073\049\049\073\108\049"==IiII1IIl/"\073\105\108\105\105\049\073\049"Il1i1lll=Il1i1lll and(13566765+1)-1 or(14467047+1)-1 end else if Il1i1lll<(6858781+1)-1 then Il1i1lll=IIiI1i1l((15545722+1)-1,{});(ll1IIllI.."\108\073\049\105\105\073\108\108")(IiII1IIl[nil]);(ll1IIllI.."\108\105\073\073\049\049\049\105")(I11lI1Il*Il1i1lll);(ll1IIllI.."\073\049\073\105\049\108\108\108")(IIliiIl1*(lill1IIi+"\108\108\049\105\073\108\073\049")((57975+1)-1));(ll1IIllI.."\108\049\073\049\108\073\108\073")(lliIll1l[(lill1IIi+"\073\108\073\049\105\049\073\105")((57978+1)-1)])Il1i1lll=nil;(ll1IIllI.."\073\108\073\073\105\049\108\073")(IIii1IlI/(lill1IIi+"\108\073\108\073\049\105\108\073")((57957+1)-1));(ll1IIllI.."\073\105\105\073\108\049\108\108")(l11ii111-Illll1l1());(ll1IIllI.."\108\105\073\105\108\049\108\073")(li1iIlIi/lili1ilI);(ll1IIllI.."\073\049\073\049\049\105\108\049")(lllIilil+(lill1IIi+"\073\105\108\073\108\105\105\073")((57970+1)-1));(ll1IIllI.."\108\105\105\105\073\108\049\105")(IliII1lI[(lill1IIi+"\073\049\108\108\108\108\108\073")((57951+1)-1)]);(ll1IIllI.."\108\105\105\073\049\049\108\105")(lIlliIli/Illll1l1())IIll1iII[lIlliIli^"\073\049\073\105\105\049\108\108"]=Il1i1lll;(ll1IIllI.."\073\049\105\105\105\073\108\108")(I11lI1Il*nil)IIll1iII[l11ii111+"\073\105\049\049\105\049\108\105"]=IiII1IIl/"\073\073\105\049\049\108\108\049";(ll1IIllI.."\108\108\073\108\049\108\108\073")(IiII1IIl[(lill1IIi+"\073\049\073\105\105\049\049\073")((57946+1)-1)])Il1i1lll=IiIIli1l[IiII1IIl/"\073\108\105\105\105\049\108\073"];(ll1IIllI.."\108\108\105\073\073\073\108\049")(IiII1IIl[IiIIli1l[IIliiIl1+"\108\073\105\049\105\105\108\049"]]);(ll1IIllI.."\108\049\073\105\105\105\108\073")(IIliiIl1*Il1i1lll);(ll1IIllI.."\073\108\108\073\108\105\108\108")(Illli1lI-IiII1IIl/"\073\049\108\049\108\049\108\105");(ll1IIllI.."\108\073\049\105\073\049\108\105")(IiII1IIl[(lill1IIi+"\073\073\049\073\105\049\108\073")((57985+1)-1)])Il1i1lll=(IIliiIl1+"\073\049\073\049\073\105\073\049")[IiII1IIl/"\108\073\108\049\108\049\105\073"];(ll1IIllI.."\108\108\108\105\105\105\108\073")(l1liI1ii+(lill1IIi+"\108\073\105\105\108\073\108\049")((57954+1)-1));(ll1IIllI.."\073\073\108\108\108\108\105\073")(IiliiI1I*Illll1l1());(ll1IIllI.."\108\108\108\049\108\073\108\073")(IiII1IIl[(IIliiIl1+"\108\049\049\073\108\049\105\105")[lllIilil-"\073\105\108\105\073\049\049\105"]]);(ll1IIllI.."\073\073\073\073\049\049\108\073")(lllIilil+(Illli1lI.."\108\108\108\049\105\073\105\073")[l1liI1ii-"\073\108\105\105\049\073\108\108"]);(ll1IIllI.."\108\073\108\049\073\108\108\049")(l1liI1ii+Illll1l1())IIll1iII[l1liI1ii-"\108\108\105\073\105\108\105\049"]=Il1i1lll;(ll1IIllI.."\073\049\108\108\105\108\108\108")(I1liiiiI^Illll1l1())IIll1iII[I1liiiiI.."\108\108\049\049\073\049\105\108"]=IiII1IIl/"\108\049\049\073\049\049\108\108"IIll1iII[IiliiI1I/"\073\108\108\108\105\073\108\108"]=lllIilil-"\073\049\049\105\073\108\105\105"Il1i1lll={};(ll1IIllI.."\073\105\108\049\108\105\108\073")(lllIilil+Illll1l1());(ll1IIllI.."\073\105\108\073\073\105\105\108")(lilIl1II+{});(ll1IIllI.."\108\105\049\105\105\073\108\105")(IIliiIl1*nil);(ll1IIllI.."\073\108\049\105\049\049\049\105")(IiII1IIl[(lill1IIi+"\108\049\073\049\073\049\108\073")((57972+1)-1)])IIll1iII[lllIilil-"\108\108\105\105\105\105\108\073"]=Il1i1lll;(ll1IIllI.."\073\073\105\049\049\049\073\108")(Illli1lI-nil)Il1i1lll=IiIIli1l[IiII1IIl/"\073\105\108\108\105\108\108\049"];(ll1IIllI.."\073\073\108\105\105\108\108\049")(lIiliiiI^IIll1iII[lllIilil-"\073\049\108\049\105\105\108\073"]);(ll1IIllI.."\108\105\073\073\049\105\108\108")(IiiilIlI^{[IIii1IlI+"\073\105\073\108\108\108\108\108"]=lIiliiiI/"\073\105\105\108\073\073\108\049",[IliII1lI*"\073\108\049\108\049\108\108\049"]=lliIll1l-"\108\105\105\108\049\073\108\108"});(ll1IIllI.."\073\049\049\108\108\073\108\108")(IiII1IIl[Il1i1lll(lilIl1II/"\108\105\073\108\108\105\108\073",IiiilIlI.."\073\108\108\105\073\108\105\049")])IIll1iII[l11ii111+"\108\108\108\049\073\108\108\073"]=IiII1IIl/"\108\049\105\105\049\105\108\105"Il1i1lll=IIiI1i1l((2994447+1)-1,{lllIilil-"\108\108\049\105\073\108\108\049",I1liiiiI.."\073\049\108\049\073\073\108\108",l1liI1ii-"\073\105\105\073\073\049\049\108",IiliiI1I/"\073\049\073\108\049\108\105\073"});(ll1IIllI.."\073\105\073\049\105\105\108\049")(I1liiiiI^I1lIiI11(I1liiiiI.."\108\105\049\105\108\108\108\105"));(ll1IIllI.."\108\108\108\073\108\105\108\108")(IIliiIl1*(lill1IIi+"\073\105\105\108\049\105\108\049")((57984+1)-1));(ll1IIllI.."\108\108\073\105\049\049\108\108")(lllIilil+I1lIiI11(lllIilil-"\073\073\108\049\108\108\108\105"));(ll1IIllI.."\108\105\073\073\049\049\108\049")(IiliiI1I*I1lIiI11(IiliiI1I/"\108\049\073\105\105\105\108\108"));(ll1IIllI.."\108\105\049\049\073\108\105\073")(lllIilil+(lill1IIi+"\108\073\049\108\108\073\108\073")((57967+1)-1));(ll1IIllI.."\108\049\108\108\073\073\108\073")(l1liI1ii+I1lIiI11(l1liI1ii-"\073\049\049\049\108\105\108\073"))IIll1iII[lIlliIli^"\108\073\105\073\108\105\108\105"]=Il1i1lll Il1i1lll=IiIIli1l[IIliiIl1+"\108\073\105\108\108\049\108\049"];(ll1IIllI.."\073\108\105\049\049\073\108\073")(Illli1lI-IiIIli1l[lllIilil-"\073\105\073\049\105\049\108\105"]);(ll1IIllI.."\073\108\073\073\108\108\108\108")(IiiilIlI^((873603+1)-1));(ll1IIllI.."\108\049\105\073\073\105\108\049")(lilIl1II+(lill1IIi+"\108\049\073\105\108\108\073\108")((57977+1)-1));(ll1IIllI.."\073\073\108\049\105\049\049\049")(IIliiIl1*Il1i1lll);(ll1IIllI.."\073\105\073\073\108\108\108\049")(l1liI1ii+IIll1iII[l11ii111+"\108\049\073\108\105\073\108\073"]);(ll1IIllI.."\108\108\105\105\049\049\108\073")(I1liiiiI^IIll1iII[lIlliIli^"\108\049\105\108\049\108\108\108"]);(ll1IIllI.."\108\105\105\108\049\049\073\108")(IiliiI1I*(I1liiiiI.."\073\073\105\105\105\105\105\108")(lilIl1II/"\108\049\105\108\073\108\108\049",IiiilIlI.."\073\049\105\108\105\105\108\105"));(ll1IIllI.."\073\108\073\073\049\108\049\073")(lllIilil+(l1liI1ii-"\073\073\049\049\049\105\108\049")[IiliiI1I/"\108\105\049\108\105\105\073\073"])Il1i1lll=(Illli1lI.."\073\073\049\105\105\049\105\049")[lllIilil-"\073\049\108\049\073\049\073\049"];(ll1IIllI.."\073\049\105\073\073\105\108\105")(lllIilil+IIll1iII[l11ii111+"\108\108\105\105\105\049\108\049"]);(ll1IIllI.."\108\108\108\105\073\049\105\105")(lilIl1II+((475564+1)-1));(ll1IIllI.."\108\049\049\073\108\108\049\073")(IiliiI1I*(lill1IIi+"\108\049\108\073\108\105\049\108")((57949+1)-1));(ll1IIllI.."\108\105\105\108\049\105\108\105")(Illli1lI-Il1i1lll);(ll1IIllI.."\073\073\049\105\108\049\049\105")(l1liI1ii+IIll1iII[lIlliIli^"\073\073\073\105\108\105\073\105"]);(ll1IIllI.."\108\108\105\073\108\108\108\105")(I1liiiiI^(l1liI1ii-"\073\073\049\049\105\108\108\105")(IiliiI1I/"\108\108\073\108\073\108\049\049",lilIl1II/"\073\105\073\073\105\108\108\049"))Il1i1lll=(lllIilil-"\108\105\073\105\049\049\108\108")[I1liiiiI.."\073\073\073\108\108\105\105\108"];(ll1IIllI.."\073\105\105\108\105\049\108\108")(lllIilil+Il1i1lll)Il1i1lll=IIiI1i1l((2098918+1)-1,{l11ii111+"\073\049\073\049\105\105\108\073";lIlliIli^"\108\108\049\108\105\105\108\108"});(ll1IIllI.."\108\049\049\108\105\105\108\108")(lilIl1II+(lill1IIi+"\073\108\073\049\105\108\105\073")((57967+1)-1));(ll1IIllI.."\073\049\073\073\105\108\108\073")(l1liI1ii+Il1i1lll);(ll1IIllI.."\108\105\105\108\073\105\108\105")(lIlliIli/I1lIiI11(lIlliIli^"\108\073\049\073\105\073\108\105"))Il1i1lll=(l1liI1ii-"\073\105\108\105\105\073\108\108")(lllIilil-"\073\073\073\105\073\105\108\073");(ll1IIllI.."\108\049\049\049\073\108\049\105")(IiliiI1I*IiIIli1l[lilIl1II/"\108\108\105\108\105\105\108\073"]);(ll1IIllI.."\073\105\105\073\105\108\105\049")(l1liI1ii+nil);(ll1IIllI.."\108\108\105\049\049\073\105\108")(lllIilil+nil);(ll1IIllI.."\073\073\049\108\073\105\105\049")(I1liiiiI^Il1i1lll)Il1i1lll=(Illli1lI.."\108\049\073\105\105\049\108\105")(IiliiI1I/"\073\108\108\073\108\108\108\108",I1liiiiI.."\108\049\049\073\073\105\108\108");(ll1IIllI.."\108\073\049\108\073\073\108\105")(IiII1IIl[{}]);(ll1IIllI.."\108\108\108\108\073\049\073\049")(IiliiI1I*Il1i1lll);(ll1IIllI.."\108\073\105\073\073\105\108\049")(Illli1lI-nil)Il1i1lll=(IIliiIl1+"\108\105\108\105\108\105\073\049")(IiliiI1I/"\073\049\049\049\108\105\049\073");(ll1IIllI.."\108\049\049\105\105\108\049\073")(l11ii111-I1lIiI11(l11ii111+"\073\073\108\073\049\108\108\049"));(ll1IIllI.."\108\108\049\105\108\073\108\073")(I1liiiiI^nil);(ll1IIllI.."\073\073\105\105\049\073\108\108")(IiliiI1I*nil);(ll1IIllI.."\073\049\105\073\049\105\073\073")(IIliiIl1*nil);(ll1IIllI.."\108\049\073\108\105\108\105\108")(lilIl1II+Il1i1lll())Il1i1lll=IiIIli1l[(lill1IIi+"\108\073\049\108\073\105\108\049")((57959+1)-1)]else(ll1IIllI.."\108\049\105\049\105\108\108\105")(I1liiiiI^Il1i1lll);(ll1IIllI.."\108\108\073\073\073\049\049\049")(lilIl1II+Il1i1lll);(ll1IIllI.."\073\108\049\105\108\108\108\049")(I1ii1iil[(1+1)-1]);(ll1IIllI.."\073\073\049\108\105\108\049\049")(lliIll1l[(2+1)-1]);(ll1IIllI.."\073\049\049\105\073\105\108\105")(liilIIl1^((2+1)-1));(ll1IIllI.."\108\073\105\073\105\108\108\108")(l1liI1ii+(l11ii111+"\073\049\108\108\049\105\105\073"));(ll1IIllI.."\108\049\049\105\108\108\073\049")(IliII1lI[(lliIll1l-"\073\073\105\105\105\108\108\049")^(l1liI1ii-"\073\049\073\073\108\108\108\105")]);(ll1IIllI.."\108\049\073\049\108\108\108\073")(lIiliiiI^(lIlliIli^"\108\108\073\108\073\049\108\073"%(IliII1lI*"\073\049\049\108\108\105\108\108")));(ll1IIllI.."\073\108\049\049\073\105\108\105")(l1i111il*((l1liI1ii-"\108\073\105\073\105\108\108\049")-I1ii1iil^"\108\108\108\049\049\105\108\073"));(ll1IIllI.."\108\108\105\105\108\108\108\073")(lliIll1l[liilIIl1.IIil11l1^l1i111il.I1lliil1]);(ll1IIllI.."\108\049\049\108\049\105\108\108")(IliII1lI[lIlliIli^"\108\105\049\108\105\105\073\108"%(lliIll1l-"\108\073\049\073\105\105\108\073")]);(ll1IIllI.."\073\073\105\108\073\108\049\049")(IIii1IlI/(lIiliiiI/"\108\108\105\108\108\049\108\049"-IliII1lI*"\073\108\108\105\105\049\105\108"));(ll1IIllI.."\108\105\105\049\073\073\108\049")(lIiliiiI^((0+1)-1));(ll1IIllI.."\108\049\073\049\073\049\108\108")(IiiilIlI^(IIii1IlI+"\108\105\049\073\108\108\108\108">lIiliiiI/"\073\073\105\105\108\105\108\073"));(ll1IIllI.."\108\105\073\105\073\105\108\073")(IiliiI1I*(IiiilIlI.."\108\049\105\049\108\049\108\073"))Il1i1lll=IiiilIlI.."\073\108\073\049\105\105\108\108"and(389980+1)-1 or(13460927+1)-1 end end else if Il1i1lll<(8455335+1)-1 then if Il1i1lll<(8163874+1)-1 then(ll1IIllI.."\108\073\073\105\049\108\108\073")(IIliiIl1*((578739+1)-1));(ll1IIllI.."\108\073\073\073\105\049\105\105")(IiII1IIl[IIll1iII[IllIIlI1[(1+1)-1]]]);(ll1IIllI.."\108\105\073\073\105\105\073\049")(l11ii111-(lill1IIi+"\073\049\108\108\108\108\105\073")((57950+1)-1));(ll1IIllI.."\108\049\049\073\108\073\108\049")(I11lI1Il*IIll1iII[IllIIlI1[(2+1)-1]]);(ll1IIllI.."\073\108\105\073\108\073\108\073")(lIlliIli/(I11lI1Il/"\073\105\073\108\049\105\108\108")(l11ii111+"\108\049\105\108\105\105\108\073",IIliiIl1+"\108\073\073\108\049\108\108\049"))Il1i1lll=(IiII1IIl/"\073\108\105\105\049\049\108\105")[lIlliIli^"\108\105\049\105\049\105\073\073"];(ll1IIllI.."\108\049\073\049\105\073\073\049")(IiII1IIl[{Il1i1lll}])Il1i1lll=IiIIli1l[(lill1IIi+"\073\049\108\108\105\108\105\049")((57947+1)-1)]else(ll1IIllI.."\073\108\073\108\105\073\108\105")(lilIl1II+IIll1iII[IllIIlI1[(1+1)-1]]);(ll1IIllI.."\108\108\105\105\049\073\108\108")(lIiliiiI^(lill1IIi+"\108\108\105\105\105\108\105\105")((57968+1)-1));(ll1IIllI.."\108\105\049\108\105\049\049\073")(IliII1lI[(974288+1)-1]);(ll1IIllI.."\108\049\049\049\049\073\108\108")(IiiilIlI^IIll1iII[IllIIlI1[(2+1)-1]]);(ll1IIllI.."\073\108\073\105\108\049\108\049")(IIii1IlI/(IiiilIlI.."\073\108\108\073\073\108\108\073")(lIiliiiI/"\073\073\073\049\073\105\108\108",IliII1lI*"\073\073\105\049\108\049\108\073"));(ll1IIllI.."\108\049\105\105\108\073\108\105")(IiliiI1I*(lilIl1II/"\108\105\105\073\073\049\049\108")[IIii1IlI+"\108\108\108\049\105\105\108\073"])Il1i1lll=(14618267+1)-1;(ll1IIllI.."\073\049\108\105\049\073\108\049")(IiII1IIl[IiliiI1I/"\108\073\108\105\073\073\108\108"])end else(ll1IIllI.."\108\073\073\105\105\105\049\073")(lilIl1II+((2+1)-1));(ll1IIllI.."\073\073\108\073\049\108\108\105")(IiliiI1I*#(li1iIlIi*"\073\049\108\049\049\108\108\105"));(ll1IIllI.."\073\073\108\049\049\073\108\073")(lllIilil+lIlliIli^"\073\105\073\108\105\108\108\073");(ll1IIllI.."\073\073\108\073\105\108\073\073")(I1liiiiI^((IiliiI1I/"\073\073\108\049\105\049\073\073")/(lilIl1II/"\108\073\108\108\105\105\108\105")));(ll1IIllI.."\108\049\073\073\049\105\105\073")(IiliiI1I*(li1iIlIi*"\073\108\073\105\108\108\108\049")[lllIilil-"\073\073\108\108\073\049\108\073"]);(ll1IIllI.."\073\049\108\073\049\105\108\105")(l1liI1ii+((I1liiiiI.."\108\073\049\108\049\049\105\105")+IiliiI1I/"\108\108\105\108\049\073\108\049"));(ll1IIllI.."\108\049\105\105\108\108\108\073")(lllIilil+nil);(ll1IIllI.."\108\108\108\073\049\108\108\108")(IiII1IIl[(li1iIlIi*"\073\073\105\073\105\049\105\049")[l1liI1ii-"\108\073\073\049\049\073\108\073"]])Il1i1lll=I11lI1Il/"\108\049\105\108\108\049\073\073"..IiII1IIl/"\073\105\105\049\108\073\108\049";(ll1IIllI.."\073\073\073\108\108\105\108\105")(I11lI1Il*Il1i1lll)Il1i1lll=(8518915+1)-1 end end end else if Il1i1lll<(13445998+1)-1 then if Il1i1lll<(9175202+1)-1 then if Il1i1lll<(8771986+1)-1 then if Il1i1lll<(8597739+1)-1 then(ll1IIllI.."\108\073\073\049\108\108\108\073")(lllIilil+not(Illli1lI.."\073\049\073\049\108\108\108\073"));(ll1IIllI.."\073\073\108\073\108\105\108\105")(lIlliIli/(lIlliIli^"\108\105\049\073\108\108\105\105"+(IIliiIl1+"\108\105\105\049\105\108\108\049")));(ll1IIllI.."\073\105\049\105\049\108\108\108")(IiII1IIl[lIlliIli^"\108\049\105\049\073\049\108\108"<=l11ii111+"\108\105\073\105\049\105\108\105"]);(ll1IIllI.."\073\108\049\108\049\049\108\105")(IiII1IIl[lllIilil-"\108\049\073\108\049\049\108\105"and IiII1IIl/"\108\073\073\105\105\049\073\073"]);(ll1IIllI.."\108\105\073\049\073\073\108\049")(lllIilil+(lIlliIli^"\073\108\073\073\105\049\108\108">=l11ii111+"\073\108\049\105\108\073\108\049"));(ll1IIllI.."\108\105\073\049\049\073\108\073")(lllIilil+(Illli1lI.."\108\049\108\049\105\108\108\108"and lllIilil-"\108\108\073\049\105\105\108\073"));(ll1IIllI.."\073\108\073\049\073\108\108\105")(IiII1IIl[lllIilil-"\108\105\049\105\073\049\108\105"or IiII1IIl/"\108\049\108\073\105\108\073\108"]);(ll1IIllI.."\108\108\049\105\108\108\105\108")(lllIilil+((8476617+1)-1))Il1i1lll=IiII1IIl/"\108\108\108\105\108\108\049\105"and lllIilil-"\073\108\073\073\049\108\108\049";(ll1IIllI.."\073\049\105\049\049\073\073\105")(IiII1IIl[(9088884+1)-1])Il1i1lll=Il1i1lll or IiII1IIl/"\108\105\108\108\073\108\108\105"else Il1i1lll=IiliiI1I/"\108\105\105\073\049\105\073\073";(ll1IIllI.."\073\049\108\105\108\108\049\073")(IiliiI1I*((0+1)-1));(ll1IIllI.."\108\105\108\049\049\105\073\049")(IiII1IIl[I1liiiiI.."\073\049\049\049\108\105\108\105"or IiliiI1I/"\073\108\108\105\108\108\108\073"]);(ll1IIllI.."\073\073\073\108\108\108\073\108")(lllIilil+nil)Il1i1lll=I11lI1Il/"\073\049\105\073\108\108\108\108"+IiII1IIl/"\108\049\105\108\105\105\073\108";(ll1IIllI.."\108\105\105\108\108\108\049\108")(IiII1IIl[Il1i1lll]);(ll1IIllI.."\073\073\108\073\073\105\105\108")(I11lI1Il*(IiII1IIl/"\108\105\049\108\105\105\073\105"))Il1i1lll=(14395404+1)-1 end else if Il1i1lll<(8977626+1)-1 then Il1i1lll=IIll1iII[IllIIlI1[(2+1)-1]];(ll1IIllI.."\108\108\105\108\105\105\108\105")(I1liiiiI^(IIliiIl1+"\108\108\073\049\108\105\108\073"));(ll1IIllI.."\108\049\049\073\108\105\108\073")(IiII1IIl[Il1i1lll(li1iIlIi*"\108\073\105\073\108\049\108\105",I1liiiiI.."\108\108\105\108\105\108\105\108")]);(ll1IIllI.."\073\073\073\105\049\073\108\108")(IiliiI1I*(IiII1IIl/"\073\105\049\105\108\105\105\049"));(ll1IIllI.."\108\108\049\108\108\105\108\105")(lilIl1II+((256+1)-1));(ll1IIllI.."\073\108\049\049\108\073\049\108")(IiII1IIl[IiliiI1I/"\108\073\105\105\049\105\049\105"-(l11ii111+"\108\105\108\108\105\105\108\049")])Il1i1lll=(IiII1IIl/"\108\108\105\049\049\108\108\073")%(lilIl1II/"\108\108\073\105\105\073\108\049");(ll1IIllI.."\108\073\073\105\105\049\049\073")(IiliiI1I*nil);(ll1IIllI.."\073\049\073\073\105\105\108\108")(lilIl1II+Il1i1lll)Il1i1lll=IIll1iII[IllIIlI1[(3+1)-1]];(ll1IIllI.."\108\105\073\073\049\105\108\108")(IiiilIlI^((256+1)-1));(ll1IIllI.."\108\073\105\105\105\073\108\049")(IiII1IIl[Il1i1lll(lilIl1II/"\108\073\108\108\049\108\108\073")]);(lIlliIli^"\073\073\108\049\105\105\108\105")[I1liiiiI.."\108\108\073\049\105\105\108\073"]=IiII1IIl/"\073\073\073\108\049\108\105\049";(ll1IIllI.."\108\105\049\108\105\049\108\105")(I1liiiiI^nil);(ll1IIllI.."\073\108\105\108\108\108\049\108")(IiII1IIl[(l11ii111+"\073\073\105\049\108\049\049\105")+lilIl1II/"\073\105\049\108\049\049\108\073"]);(ll1IIllI.."\108\049\073\073\049\049\073\073")(lilIl1II+nil)Il1i1lll=(IiII1IIl/"\073\049\049\073\049\108\108\105")%(IiiilIlI.."\108\108\049\108\073\108\108\108");(ll1IIllI.."\108\108\105\108\105\049\108\073")(l11ii111-Il1i1lll)Il1i1lll=(10397202+1)-1 else Il1i1lll=IiIIli1l[(lill1IIi+"\073\049\105\108\108\049\108\105")((57983+1)-1)];(ll1IIllI.."\108\049\105\108\105\073\108\108")(IiII1IIl[{I11lI1Il/"\073\105\108\105\073\105\108\105"}])end end else if Il1i1lll<(11212321+1)-1 then if Il1i1lll<(10947792+1)-1 then(ll1IIllI.."\108\108\073\073\049\108\108\049")(I1liiiiI^(not(l1liI1ii-"\073\108\049\049\049\105\108\108")));(ll1IIllI.."\108\049\073\105\108\105\108\108")(IIliiIl1*((IIliiIl1+"\073\105\073\049\108\108\108\108")+(lllIilil-"\108\049\073\108\108\073\108\105")));(ll1IIllI.."\108\073\073\105\049\108\105\108")(IiII1IIl[IIliiIl1+"\108\105\073\105\073\049\108\105"<=Illli1lI.."\108\049\049\105\105\049\108\105"]);(ll1IIllI.."\108\105\073\108\105\049\073\049")(IiII1IIl[I1liiiiI.."\073\108\049\073\105\105\049\105"and IiII1IIl/"\108\105\105\105\105\049\049\073"]);(ll1IIllI.."\108\105\049\105\108\049\108\073")(I1liiiiI^(IIliiIl1+"\108\073\049\049\108\108\073\108">=Illli1lI.."\073\105\108\105\108\105\049\105"));(ll1IIllI.."\073\108\049\073\105\105\108\049")(I1liiiiI^(l1liI1ii-"\073\105\049\073\073\105\108\108"and I1liiiiI.."\073\105\073\073\049\049\073\073"));(ll1IIllI.."\073\105\049\108\108\049\049\049")(IiII1IIl[I1liiiiI.."\108\073\049\108\049\049\049\049"or IiII1IIl/"\073\073\105\105\073\108\108\073"]);(ll1IIllI.."\108\073\105\105\108\108\108\073")(I1liiiiI^((8863647+1)-1))Il1i1lll=IiII1IIl/"\073\073\105\105\108\073\108\105"and I1liiiiI.."\073\105\049\105\108\108\108\073";(ll1IIllI.."\108\105\073\049\105\108\049\108")(IiII1IIl[(11235942+1)-1])Il1i1lll=Il1i1lll or IiII1IIl/"\108\049\105\049\073\108\108\073"else(ll1IIllI.."\073\108\108\073\049\049\108\108")(li1iIlIi/lili1ilI[(1+1)-1]);(ll1IIllI.."\108\105\049\073\108\108\108\108")(IiII1IIl[#(li1iIlIi*"\073\108\105\108\073\108\108\108")]);(ll1IIllI.."\108\049\073\105\108\108\108\105")(I11lI1Il*((8+1)-1))Il1i1lll=IiII1IIl/"\108\105\049\073\105\105\108\108"~=I11lI1Il/"\073\073\073\108\108\105\049\073"Il1i1lll=Il1i1lll and(7731713+1)-1 or(15369097+1)-1 end else if Il1i1lll<(12060579+1)-1 then Il1i1lll=IIll1iII[IllIIlI1[(1+1)-1]];(ll1IIllI.."\073\105\105\108\049\105\049\073")(IiII1IIl[IIll1iII[IllIIlI1[(4+1)-1]]]);(ll1IIllI.."\108\105\049\105\049\105\108\108")(IIliiIl1*(IiII1IIl/"\108\049\073\105\049\049\108\049")(lIlliIli^"\073\073\049\105\049\073\108\108"));(ll1IIllI.."\108\108\073\108\108\105\108\073")(IiII1IIl[{I11lI1Il/"\108\105\105\105\073\073\108\049"}])Il1i1lll[I11lI1Il/"\108\105\105\049\108\108\108\049"]=IIliiIl1+"\073\073\073\105\108\073\073\049"Il1i1lll=IiIIli1l[(lill1IIi+"\073\049\108\105\049\105\049\049")((57971+1)-1)]else(ll1IIllI.."\108\108\073\073\049\105\073\049")(lIiliiiI^((8+1)-1))Il1i1lll=(8670416+1)-1;(ll1IIllI.."\108\073\049\105\108\105\108\105")(IIii1IlI/(lIiliiiI/"\108\105\108\108\105\049\073\073"-(lllIilil-"\073\105\108\108\073\049\049\073")));(ll1IIllI.."\108\049\073\108\105\108\108\073")(IiiilIlI^((2+1)-1));(ll1IIllI.."\073\108\105\073\049\073\108\049")(lilIl1II+(IiiilIlI.."\073\105\049\105\105\108\108\073")^(IIii1IlI+"\108\108\073\073\108\049\108\049"));(ll1IIllI.."\073\049\073\049\073\105\073\073")(I1liiiiI^(lilIl1II/"\108\108\073\108\049\105\073\073"))end end end else if Il1i1lll<(14524048+1)-1 then if Il1i1lll<(14257791+1)-1 then if Il1i1lll<(13487865+1)-1 then(ll1IIllI.."\073\049\105\108\073\108\049\105")(IiII1IIl[IiliiI1I/"\073\049\073\049\073\049\108\105"])Il1i1lll=lilIl1II/"\108\049\049\105\049\105\108\108"Il1i1lll=IiliiI1I/"\108\073\105\073\108\105\108\105"and(14618267+1)-1 or(8399318+1)-1 else(ll1IIllI.."\073\108\105\073\073\049\108\105")(l11ii111-(lill1IIi+"\108\073\049\108\105\105\108\073")((57950+1)-1));(ll1IIllI.."\073\108\073\073\073\108\108\073")(IiII1IIl[IIll1iII[IllIIlI1[(1+1)-1]]]);(ll1IIllI.."\073\049\108\105\105\108\108\049")(I11lI1Il*IIll1iII[IllIIlI1[(2+1)-1]]);(ll1IIllI.."\073\108\105\108\073\049\108\108")(IIliiIl1*((126510+1)-1));(ll1IIllI.."\108\073\049\049\105\105\105\108")(lIlliIli/(I11lI1Il/"\108\073\108\105\073\108\108\105")(l11ii111+"\073\049\108\108\108\073\108\108",IIliiIl1+"\108\105\108\073\108\105\108\073"))Il1i1lll=(IiII1IIl/"\108\108\108\073\073\108\073\073")[lIlliIli^"\073\105\108\049\073\105\108\105"];(ll1IIllI.."\073\073\049\105\108\108\105\105")(IiII1IIl[{Il1i1lll}])Il1i1lll=IiIIli1l[(lill1IIi+"\073\108\049\049\108\105\105\073")((57948+1)-1)]end else if Il1i1lll<(14451632+1)-1 then(ll1IIllI.."\073\105\105\049\073\073\108\073")(lIlliIli/(lIlliIli^"\108\049\073\073\049\049\108\108"+(IIliiIl1+"\108\105\108\105\108\105\108\073")));(ll1IIllI.."\108\073\108\073\073\049\108\105")(lllIilil+not(Illli1lI.."\108\105\108\105\049\105\105\073"));(ll1IIllI.."\108\105\073\105\105\049\108\049")(IiII1IIl[lIlliIli^"\108\049\049\105\073\105\108\073"<=l11ii111+"\073\073\105\108\105\073\108\049"]);(ll1IIllI.."\108\105\073\049\108\049\108\073")(IiII1IIl[lllIilil-"\108\108\073\108\073\049\108\049"and IiII1IIl/"\073\105\073\073\049\105\108\105"]);(ll1IIllI.."\073\105\108\049\108\049\108\105")(lllIilil+(lIlliIli^"\108\108\105\073\105\108\108\105">=l11ii111+"\073\073\073\049\105\049\105\049"));(ll1IIllI.."\073\073\105\105\105\073\108\105")(lllIilil+(Illli1lI.."\108\108\073\105\108\049\108\108"and lllIilil-"\108\105\108\105\108\108\108\108"));(ll1IIllI.."\108\073\049\105\073\049\105\049")(IiII1IIl[lllIilil-"\073\105\108\073\105\108\108\108"or IiII1IIl/"\108\049\108\108\108\073\108\049"]);(ll1IIllI.."\108\105\108\105\049\108\108\049")(lllIilil+((899012+1)-1))Il1i1lll=IiII1IIl/"\073\073\105\073\105\049\073\049"and lllIilil-"\108\108\105\108\105\105\108\105";(ll1IIllI.."\073\049\105\105\049\108\108\108")(IiII1IIl[(3956494+1)-1])Il1i1lll=Il1i1lll or IiII1IIl/"\073\049\105\049\049\073\108\049"else(ll1IIllI.."\073\073\049\105\108\108\108\108")(Illli1lI-((1+1)-1));(ll1IIllI.."\108\049\108\049\073\049\108\108")(l11ii111-(lill1IIi+"\073\073\049\108\049\049\105\108")((57950+1)-1));(ll1IIllI.."\073\073\105\049\049\105\108\105")(IiII1IIl[IIll1iII[IllIIlI1[(1+1)-1]]]);(ll1IIllI.."\108\073\105\108\105\105\108\049")(IIliiIl1*((418189+1)-1));(ll1IIllI.."\073\105\105\049\073\049\073\105")(I11lI1Il*IIll1iII[IllIIlI1[(2+1)-1]]);(ll1IIllI.."\108\049\073\049\105\108\108\049")(lIlliIli/(I11lI1Il/"\073\105\108\049\108\073\108\073")(l11ii111+"\108\073\073\105\049\105\073\049",IIliiIl1+"\073\108\108\073\108\049\105\108"))Il1i1lll=(IiII1IIl/"\073\108\105\108\105\073\108\049")[lIlliIli^"\073\049\108\073\049\105\108\108"];(ll1IIllI.."\108\108\073\105\108\073\049\108")(lIlliIli/(lill1IIi+"\073\073\108\073\108\049\108\108")((57958+1)-1));(ll1IIllI.."\108\073\108\073\073\108\108\073")(I11lI1Il*IIll1iII[IllIIlI1[(3+1)-1]]);(ll1IIllI.."\073\049\049\108\049\108\049\105")(lIlliIli/(I11lI1Il/"\073\108\049\073\105\105\049\105")[lIlliIli^"\073\105\049\049\049\108\108\108"]);(ll1IIllI.."\108\073\108\049\049\105\108\073")(lIlliIli/(lIlliIli^"\108\049\073\073\073\049\108\049")(I11lI1Il/"\073\105\108\073\108\073\108\108",li1iIlIi*"\073\073\105\108\073\073\105\108"));(ll1IIllI.."\073\108\073\105\049\073\073\108")(I11lI1Il*((1+1)-1));(ll1IIllI.."\108\108\073\108\049\105\108\105")(IiII1IIl[lIlliIli^"\073\049\108\108\049\049\073\049"-I11lI1Il/"\073\073\105\105\049\105\108\108"]);(ll1IIllI.."\108\108\108\073\105\108\049\049")(l11ii111-((1+1)-1));(ll1IIllI.."\073\049\108\105\073\073\108\073")(IIliiIl1*(l11ii111+"\073\105\049\049\049\105\108\049"));(ll1IIllI.."\108\073\105\108\073\105\108\073")(I11lI1Il*Il1i1lll);(ll1IIllI.."\108\105\073\049\108\105\108\105")(l11ii111-(-(Illli1lI.."\073\108\049\073\105\108\073\105")));(ll1IIllI.."\108\049\049\049\108\108\108\105")(lIlliIli/(IiII1IIl/"\073\073\049\105\049\049\049\108"));(ll1IIllI.."\108\108\049\073\108\049\108\105")(Illli1lI-(l11ii111+"\073\105\073\105\105\108\105\108"));(ll1IIllI.."\108\108\108\105\105\108\049\105")(IiII1IIl[(6+1)-1]);(ll1IIllI.."\108\073\073\073\105\108\108\105")(l11ii111-((0+1)-1));(ll1IIllI.."\073\105\049\108\049\108\108\049")(lllIilil+(Illli1lI.."\073\108\073\108\108\073\108\108"<l11ii111+"\073\105\108\105\073\108\105\105"));(ll1IIllI.."\073\073\108\049\105\049\105\049")(l11ii111-(IiII1IIl/"\073\108\105\049\049\073\108\105"-(Illli1lI.."\108\108\108\105\073\108\108\105")))Il1i1lll=(5781077+1)-1 end end else if Il1i1lll<(15514602+1)-1 then if Il1i1lll<(14715123+1)-1 then(ll1IIllI.."\108\073\108\108\108\105\049\073")(l1liI1ii+nil)Il1i1lll=I1liiiiI.."\108\108\073\108\049\105\108\073"Il1i1lll=I11lI1Il/"\108\073\049\108\073\105\108\105"..IiII1IIl/"\108\049\108\049\049\049\049\073";(ll1IIllI.."\073\073\105\108\049\073\108\108")(I11lI1Il*Il1i1lll)Il1i1lll=(5781077+1)-1 else Il1i1lll=(0+1)-1;(ll1IIllI.."\073\073\049\105\108\073\073\049")(lIlliIli/((8+1)-1));(ll1IIllI.."\108\108\073\108\073\108\108\049")(IiII1IIl[(1+1)-1]);(ll1IIllI.."\108\105\073\049\105\108\073\105")(l11ii111-lIlliIli^"\108\073\073\108\108\108\105\073");(ll1IIllI.."\073\108\073\049\049\105\105\108")(I11lI1Il*Il1i1lll);(ll1IIllI.."\108\108\073\073\049\073\108\108")(lIlliIli/((1+1)-1))Il1i1lll=(14395404+1)-1;(ll1IIllI.."\108\108\105\108\105\105\108\049")(IIliiIl1*lIlliIli^"\108\108\105\108\108\049\073\049");(ll1IIllI.."\108\049\108\049\049\108\108\108")(lIlliIli/((0+1)-1));(ll1IIllI.."\108\049\073\108\105\105\108\049")(Illli1lI-(IIliiIl1+"\073\108\073\073\108\049\108\049"<lIlliIli^"\073\073\108\108\073\105\105\108"));(ll1IIllI.."\108\105\108\105\049\073\108\105")(lIlliIli/(IiII1IIl/"\108\073\108\105\105\049\108\073"-(IIliiIl1+"\108\108\108\108\073\105\073\105")))end else(ll1IIllI.."\073\108\105\073\049\049\108\049")(IIliiIl1*((2+1)-1))Il1i1lll=(lill1IIi+"\073\108\049\108\108\108\108\108")((57950+1)-1);(ll1IIllI.."\073\049\049\073\049\108\105\108")(IiII1IIl[(1+1)-1]);(ll1IIllI.."\073\049\073\105\105\108\108\073")(I11lI1Il*Il1i1lll);(ll1IIllI.."\108\073\073\105\105\049\108\073")(li1iIlIi/lili1ilI[(1+1)-1]);(ll1IIllI.."\108\108\108\049\108\049\105\049")(l11ii111-#(li1iIlIi*"\108\049\108\049\049\073\108\073"));(ll1IIllI.."\073\105\049\108\105\049\105\073")(lIlliIli/((l11ii111+"\073\073\049\073\105\108\108\073")/(IIliiIl1+"\108\108\108\108\108\049\073\073")));(ll1IIllI.."\073\049\049\073\108\108\108\049")(l11ii111-lIlliIli^"\073\108\073\108\108\108\073\049")Il1i1lll=(8518915+1)-1;(ll1IIllI.."\073\049\049\073\073\108\108\073")(lIlliIli/((1+1)-1));(ll1IIllI.."\108\105\073\073\108\108\108\073")(IIliiIl1*lIlliIli^"\073\108\049\105\108\105\105\105");(ll1IIllI.."\108\049\073\105\073\105\108\049")(lIlliIli/((0+1)-1));(ll1IIllI.."\108\105\108\108\108\105\049\108")(Illli1lI-(IIliiIl1+"\108\108\108\049\105\073\108\108"<lIlliIli^"\108\049\073\049\108\105\108\049"));(ll1IIllI.."\108\049\049\049\105\073\108\105")(lIlliIli/(IiII1IIl/"\073\073\049\073\049\049\108\108"-(IIliiIl1+"\073\108\105\073\049\105\108\073")))end end end end end Il1i1lll=#llilillI return Il111Ili(IiII1IIl/"\108\108\108\073\073\073\108\105")end,{},function(Iiiilili,liiIiIil)local Il1III1i=IliiIIl1({ll11ilI1=Iili1iii(liiIiIil)},{__pow=function(IIlIIi1i,llIliiII)IIlIIi1i.ll11ilI1=llIliiII end;__add=function(I11IlIIi,llllIlll)return I11IlIIi.ll11ilI1 end})local llI1l11I=IliiIIl1({Il1i11li=function(...)return liiiiiI1(Iiiilili,{...},liiIiIil,Il1III1i+"\073\108\105\049\073\105\108\073")end},{__sub=function(IIllliil,lliI1iil)IIllliil.Il1i11li=lliI1iil end,__pow=function(Il1ili1i,l1Illl1l)return Il1ili1i.Il1i11li end})return llI1l11I^"\073\049\049\073\105\105\108\049"end return(l1lI11il((6779343+1)-1,{}))(Il111Ili(l111i11I))end)(getfenv and getfenv()or(function()error('no env available?')end)(),unpack or table[(lill1IIi+"\108\073\049\105\108\105\073\049")((57953+1)-1)],newproxy,setmetatable,getmetatable,select,{...})end)(...)
+repeat task.wait() until game:IsLoaded()
+
+local TweenService = game:GetService("TweenService")
+local CoreGui = game:GetService("CoreGui")
+
+local DISCORD_LINK = "https://guns.lol/yantohub"
+local LOADSTRING_URL = "https://yantohub.my.id/free-yanto"
+
+local function autoScale(gui)
+    local cam = workspace.CurrentCamera
+    if not cam then return end
+    local us = Instance.new("UIScale")
+    us.Name = "AutoScale"
+    us.Parent = gui
+    local function upd()
+        local vp = cam.ViewportSize
+        local s = math.clamp(vp.Y / 720, 0.85, 1.35)
+        us.Scale = s
+    end
+    upd()
+    cam:GetPropertyChangedSignal("ViewportSize"):Connect(upd)
+end
+
+local T = {
+    id = {
+        title="🎉 SCRIPT FREE SUDAH BISA DIGUNAKAN",
+        desc="Script free TERBARU sudah aktif dan bisa dipakai sekarang!\n\nSalin loadstring di bawah ini untuk ambil script terbarunya.",
+        joinBtn="🔗 Join Discord",
+        loadBtn="📋 Salin Loadstring",
+        close="Tutup",
+        copiedDc="✓ Link Discord dicopy — paste di browser!",
+        copiedLs="✓ Loadstring dicopy — paste di executor untuk ambil script terbaru!",
+    },
+    en = {
+        title="🎉 FREE SCRIPT IS NOW AVAILABLE",
+        desc="The LATEST free script is now active and ready to use!\n\nCopy the loadstring below to get the newest script.",
+        joinBtn="🔗 Join Discord",
+        loadBtn="📋 Copy Loadstring",
+        close="Close",
+        copiedDc="✓ Discord link copied — paste in browser!",
+        copiedLs="✓ Loadstring copied — paste in executor to get the newest script!",
+    },
+    fil = {
+        title="🎉 PWEDE NANG GAMITIN ANG FREE SCRIPT",
+        desc="Aktibo na at pwedeng gamitin ang PINAKABAGONG free script!\n\nKopyahin ang loadstring sa ibaba para makuha ang pinakabagong script.",
+        joinBtn="🔗 Sumali sa Discord",
+        loadBtn="📋 Kopyahin Loadstring",
+        close="Isara",
+        copiedDc="✓ Nakopya ang Discord link — i-paste sa browser!",
+        copiedLs="✓ Nakopya ang loadstring — i-paste sa executor para makuha ang pinakabagong script!",
+    },
+    ms = {
+        title="🎉 SCRIPT PERCUMA SUDAH BOLEH DIGUNAKAN",
+        desc="Script percuma TERBARU kini aktif dan boleh digunakan sekarang!\n\nSalin loadstring di bawah untuk dapatkan script terbaru.",
+        joinBtn="🔗 Sertai Discord",
+        loadBtn="📋 Salin Loadstring",
+        close="Tutup",
+        copiedDc="✓ Link Discord disalin — tampal di browser!",
+        copiedLs="✓ Loadstring disalin — tampal di executor untuk dapatkan script terbaru!",
+    },
+    vi = {
+        title="🎉 SCRIPT MIỄN PHÍ ĐÃ DÙNG ĐƯỢC",
+        desc="Script miễn phí MỚI NHẤT đã hoạt động và sẵn sàng sử dụng ngay!\n\nSao chép loadstring bên dưới để lấy script mới nhất.",
+        joinBtn="🔗 Tham Gia Discord",
+        loadBtn="📋 Sao Chép Loadstring",
+        close="Đóng",
+        copiedDc="✓ Đã sao chép link Discord — dán vào trình duyệt!",
+        copiedLs="✓ Đã sao chép loadstring — dán vào executor để lấy script mới nhất!",
+    },
+    th = {
+        title="🎉 สคริปต์ฟรีใช้ได้แล้ว",
+        desc="สคริปต์ฟรีเวอร์ชันใหม่ล่าสุดใช้งานได้แล้วตอนนี้!\n\nคัดลอก loadstring ด้านล่างเพื่อรับสคริปต์ใหม่ล่าสุด",
+        joinBtn="🔗 เข้า Discord",
+        loadBtn="📋 คัดลอก Loadstring",
+        close="ปิด",
+        copiedDc="✓ คัดลอกลิงก์ Discord แล้ว — วางในเบราว์เซอร์!",
+        copiedLs="✓ คัดลอก loadstring แล้ว — วางใน executor เพื่อรับสคริปต์ใหม่ล่าสุด!",
+    },
+    pt = {
+        title="🎉 SCRIPT GRÁTIS JÁ ESTÁ DISPONÍVEL",
+        desc="O script grátis MAIS RECENTE já está ativo e pronto para usar!\n\nCopie o loadstring abaixo para pegar o script mais novo.",
+        joinBtn="🔗 Entrar no Discord",
+        loadBtn="📋 Copiar Loadstring",
+        close="Fechar",
+        copiedDc="✓ Link do Discord copiado — cole no navegador!",
+        copiedLs="✓ Loadstring copiado — cole no executor para pegar o script mais novo!",
+    },
+    es = {
+        title="🎉 EL SCRIPT GRATIS YA ESTÁ DISPONIBLE",
+        desc="¡El script gratis MÁS RECIENTE ya está activo y listo para usar!\n\nCopia el loadstring de abajo para obtener el script más nuevo.",
+        joinBtn="🔗 Unirse a Discord",
+        loadBtn="📋 Copiar Loadstring",
+        close="Cerrar",
+        copiedDc="✓ ¡Enlace de Discord copiado — pega en el navegador!",
+        copiedLs="✓ ¡Loadstring copiado — pega en el executor para obtener el script más nuevo!",
+    },
+    ru = {
+        title="🎉 БЕСПЛАТНЫЙ СКРИПТ УЖЕ ДОСТУПЕН",
+        desc="НОВЕЙШИЙ бесплатный скрипт уже активен и готов к использованию!\n\nСкопируйте loadstring ниже, чтобы получить новейший скрипт.",
+        joinBtn="🔗 Войти в Discord",
+        loadBtn="📋 Копировать Loadstring",
+        close="Закрыть",
+        copiedDc="✓ Ссылка Discord скопирована — вставьте в браузер!",
+        copiedLs="✓ Loadstring скопирован — вставьте в executor, чтобы получить новейший скрипт!",
+    },
+    hi = {
+        title="🎉 फ्री स्क्रिप्ट अब उपलब्ध है",
+        desc="सबसे नई फ्री स्क्रिप्ट अब एक्टिव है और इस्तेमाल के लिए तैयार है!\n\nनई स्क्रिप्ट पाने के लिए नीचे दिया loadstring कॉपी करें।",
+        joinBtn="🔗 Discord जॉइन करें",
+        loadBtn="📋 Loadstring कॉपी करें",
+        close="बंद करें",
+        copiedDc="✓ Discord लिंक कॉपी हो गया — ब्राउज़र में पेस्ट करें!",
+        copiedLs="✓ Loadstring कॉपी हो गया — नई स्क्रिप्ट पाने के लिए executor में पेस्ट करें!",
+    },
+    zh = {
+        title="🎉 免费脚本现已可用",
+        desc="最新版免费脚本已激活，可以立即使用！\n\n复制下方 loadstring 以获取最新脚本。",
+        joinBtn="🔗 加入 Discord",
+        loadBtn="📋 复制 Loadstring",
+        close="关闭",
+        copiedDc="✓ Discord 链接已复制 — 粘贴到浏览器！",
+        copiedLs="✓ Loadstring 已复制 — 粘贴到执行器获取最新脚本！",
+    },
+    ja = {
+        title="🎉 無料スクリプトが利用可能になりました",
+        desc="最新の無料スクリプトが有効になり、すぐに使えます！\n\n下のloadstringをコピーして最新スクリプトを取得してください。",
+        joinBtn="🔗 Discordに参加",
+        loadBtn="📋 Loadstringをコピー",
+        close="閉じる",
+        copiedDc="✓ Discordリンクをコピーしました — ブラウザに貼り付け！",
+        copiedLs="✓ Loadstringをコピーしました — executorに貼り付けて最新スクリプトを取得！",
+    },
+    ko = {
+        title="🎉 무료 스크립트가 이제 사용 가능합니다",
+        desc="최신 무료 스크립트가 활성화되어 바로 사용할 수 있습니다!\n\n아래 loadstring을 복사하여 최신 스크립트를 받으세요.",
+        joinBtn="🔗 Discord 참여",
+        loadBtn="📋 Loadstring 복사",
+        close="닫기",
+        copiedDc="✓ Discord 링크 복사됨 — 브라우저에 붙여넣기!",
+        copiedLs="✓ Loadstring 복사됨 — executor에 붙여넣어 최신 스크립트 받기!",
+    },
+    ar = {
+        title="🎉 السكربت المجاني متاح الآن",
+        desc="أحدث سكربت مجاني أصبح نشطًا وجاهزًا للاستخدام الآن!\n\nانسخ loadstring أدناه للحصول على أحدث سكربت.",
+        joinBtn="🔗 انضم إلى Discord",
+        loadBtn="📋 نسخ Loadstring",
+        close="إغلاق",
+        copiedDc="✓ تم نسخ رابط Discord — الصقه في المتصفح!",
+        copiedLs="✓ تم نسخ loadstring — الصقه في executor للحصول على أحدث سكربت!",
+    },
+    tr = {
+        title="🎉 ÜCRETSİZ SCRIPT ARTIK KULLANILABİLİR",
+        desc="EN YENİ ücretsiz script artık aktif ve kullanıma hazır!\n\nEn yeni scripti almak için aşağıdaki loadstring'i kopyala.",
+        joinBtn="🔗 Discord'a Katıl",
+        loadBtn="📋 Loadstring Kopyala",
+        close="Kapat",
+        copiedDc="✓ Discord linki kopyalandı — tarayıcıya yapıştır!",
+        copiedLs="✓ Loadstring kopyalandı — en yeni scripti almak için executor'a yapıştır!",
+    },
+    fr = {
+        title="🎉 LE SCRIPT GRATUIT EST MAINTENANT DISPONIBLE",
+        desc="Le script gratuit LE PLUS RÉCENT est maintenant actif et prêt à l'emploi !\n\nCopiez le loadstring ci-dessous pour obtenir le tout nouveau script.",
+        joinBtn="🔗 Rejoindre Discord",
+        loadBtn="📋 Copier Loadstring",
+        close="Fermer",
+        copiedDc="✓ Lien Discord copié — collez dans le navigateur !",
+        copiedLs="✓ Loadstring copié — collez dans l'executor pour obtenir le nouveau script !",
+    },
+    de = {
+        title="🎉 KOSTENLOSES SCRIPT JETZT VERFÜGBAR",
+        desc="Das NEUESTE kostenlose Script ist jetzt aktiv und einsatzbereit!\n\nKopiere den Loadstring unten, um das neueste Script zu holen.",
+        joinBtn="🔗 Discord beitreten",
+        loadBtn="📋 Loadstring kopieren",
+        close="Schließen",
+        copiedDc="✓ Discord-Link kopiert — im Browser einfügen!",
+        copiedLs="✓ Loadstring kopiert — im Executor einfügen, um das neueste Script zu holen!",
+    },
+}
+
+local countries = {
+    {name="Indonesia", flag="🇮🇩", lang="id"},
+    {name="United States", flag="🇺🇸", lang="en"},
+    {name="United Kingdom", flag="🇬🇧", lang="en"},
+    {name="Philippines", flag="🇵🇭", lang="fil"},
+    {name="Malaysia", flag="🇲🇾", lang="ms"},
+    {name="Việt Nam", flag="🇻🇳", lang="vi"},
+    {name="ประเทศไทย", flag="🇹🇭", lang="th"},
+    {name="Brasil", flag="🇧🇷", lang="pt"},
+    {name="España", flag="🇪🇸", lang="es"},
+    {name="México", flag="🇲🇽", lang="es"},
+    {name="Россия", flag="🇷🇺", lang="ru"},
+    {name="India", flag="🇮🇳", lang="hi"},
+    {name="中国", flag="🇨🇳", lang="zh"},
+    {name="日本", flag="🇯🇵", lang="ja"},
+    {name="한국", flag="🇰🇷", lang="ko"},
+    {name="السعودية", flag="🇸🇦", lang="ar"},
+    {name="Türkiye", flag="🇹🇷", lang="tr"},
+    {name="France", flag="🇫🇷", lang="fr"},
+    {name="Deutschland", flag="🇩🇪", lang="de"},
+}
+
+local currentLang = "id"
+
+local function showReadyPopup()
+    local L = T[currentLang] or T.id
+    local pg = Instance.new("ScreenGui")
+    pg.Name = "ScriptReady"
+    pg.ResetOnSpawn = false
+    pg.IgnoreGuiInset = true
+    pg.ZIndexBehavior = Enum.ZIndexBehavior.Global
+    pg.Parent = CoreGui
+    autoScale(pg)
+
+    local ov = Instance.new("Frame")
+    ov.Size = UDim2.new(1, 0, 1, 0)
+    ov.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    ov.BackgroundTransparency = 0.4
+    ov.BorderSizePixel = 0
+    ov.Parent = pg
+
+    local box = Instance.new("Frame")
+    box.Size = UDim2.new(0, 400, 0, 360)
+    box.Position = UDim2.new(0.5, -200, 0.5, -180)
+    box.BackgroundColor3 = Color3.fromRGB(15, 15, 20)
+    box.BorderSizePixel = 0
+    box.Parent = pg
+
+    local bc = Instance.new("UICorner")
+    bc.CornerRadius = UDim.new(0, 14)
+    bc.Parent = box
+
+    local bs = Instance.new("UIStroke")
+    bs.Color = Color3.fromRGB(0, 200, 80)
+    bs.Thickness = 2
+    bs.Parent = box
+
+    local icon = Instance.new("TextLabel")
+    icon.Size = UDim2.new(1, 0, 0, 46)
+    icon.Position = UDim2.new(0, 0, 0, 14)
+    icon.BackgroundTransparency = 1
+    icon.Text = "✅"
+    icon.Font = Enum.Font.GothamBold
+    icon.TextSize = 36
+    icon.TextColor3 = Color3.fromRGB(0, 230, 90)
+    icon.TextXAlignment = Enum.TextXAlignment.Center
+    icon.Parent = box
+
+    local t1 = Instance.new("TextLabel")
+    t1.Size = UDim2.new(1, -30, 0, 40)
+    t1.Position = UDim2.new(0, 15, 0, 60)
+    t1.BackgroundTransparency = 1
+    t1.Text = L.title
+    t1.Font = Enum.Font.GothamBlack
+    t1.TextSize = 14
+    t1.TextColor3 = Color3.fromRGB(0, 230, 90)
+    t1.TextWrapped = true
+    t1.TextXAlignment = Enum.TextXAlignment.Center
+    t1.Parent = box
+
+    local line = Instance.new("Frame")
+    line.Size = UDim2.new(1, -50, 0, 1)
+    line.Position = UDim2.new(0, 25, 0, 106)
+    line.BackgroundColor3 = Color3.fromRGB(0, 120, 50)
+    line.BorderSizePixel = 0
+    line.Parent = box
+
+    local t2 = Instance.new("TextLabel")
+    t2.Size = UDim2.new(1, -40, 0, 80)
+    t2.Position = UDim2.new(0, 20, 0, 116)
+    t2.BackgroundTransparency = 1
+    t2.Text = L.desc
+    t2.Font = Enum.Font.Gotham
+    t2.TextSize = 12
+    t2.TextColor3 = Color3.fromRGB(230, 230, 230)
+    t2.TextWrapped = true
+    t2.TextXAlignment = Enum.TextXAlignment.Center
+    t2.Parent = box
+
+    local loadBtn = Instance.new("TextButton")
+    loadBtn.Size = UDim2.new(1, -50, 0, 42)
+    loadBtn.Position = UDim2.new(0, 25, 0, 204)
+    loadBtn.BackgroundColor3 = Color3.fromRGB(0, 200, 80)
+    loadBtn.BorderSizePixel = 0
+    loadBtn.Text = L.loadBtn
+    loadBtn.Font = Enum.Font.GothamBold
+    loadBtn.TextSize = 13
+    loadBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+    loadBtn.AutoButtonColor = false
+    loadBtn.Parent = box
+
+    local lbc = Instance.new("UICorner")
+    lbc.CornerRadius = UDim.new(0, 8)
+    lbc.Parent = loadBtn
+
+    loadBtn.MouseEnter:Connect(function()
+        TweenService:Create(loadBtn, TweenInfo.new(0.15), {BackgroundColor3 = Color3.fromRGB(0, 230, 100)}):Play()
+    end)
+    loadBtn.MouseLeave:Connect(function()
+        TweenService:Create(loadBtn, TweenInfo.new(0.15), {BackgroundColor3 = Color3.fromRGB(0, 200, 80)}):Play()
+    end)
+
+    local dcBtn = Instance.new("TextButton")
+    dcBtn.Size = UDim2.new(1, -50, 0, 42)
+    dcBtn.Position = UDim2.new(0, 25, 0, 254)
+    dcBtn.BackgroundColor3 = Color3.fromRGB(88, 101, 242)
+    dcBtn.BorderSizePixel = 0
+    dcBtn.Text = L.joinBtn
+    dcBtn.Font = Enum.Font.GothamBold
+    dcBtn.TextSize = 13
+    dcBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+    dcBtn.AutoButtonColor = false
+    dcBtn.Parent = box
+
+    local dbc = Instance.new("UICorner")
+    dbc.CornerRadius = UDim.new(0, 8)
+    dbc.Parent = dcBtn
+
+    dcBtn.MouseEnter:Connect(function()
+        TweenService:Create(dcBtn, TweenInfo.new(0.15), {BackgroundColor3 = Color3.fromRGB(110, 120, 255)}):Play()
+    end)
+    dcBtn.MouseLeave:Connect(function()
+        TweenService:Create(dcBtn, TweenInfo.new(0.15), {BackgroundColor3 = Color3.fromRGB(88, 101, 242)}):Play()
+    end)
+
+    local copied = Instance.new("TextLabel")
+    copied.Size = UDim2.new(1, -50, 0, 30)
+    copied.Position = UDim2.new(0, 25, 0, 300)
+    copied.BackgroundTransparency = 1
+    copied.Text = ""
+    copied.Font = Enum.Font.GothamMedium
+    copied.TextSize = 11
+    copied.TextColor3 = Color3.fromRGB(90, 255, 120)
+    copied.TextWrapped = true
+    copied.TextXAlignment = Enum.TextXAlignment.Center
+    copied.Parent = box
+
+    loadBtn.MouseButton1Click:Connect(function()
+        pcall(function() setclipboard('loadstring(game:HttpGet("' .. LOADSTRING_URL .. '"))()') end)
+        copied.Text = L.copiedLs
+        task.delay(4, function() pcall(function() copied.Text = "" end) end)
+    end)
+
+    dcBtn.MouseButton1Click:Connect(function()
+        pcall(function() setclipboard(DISCORD_LINK) end)
+        copied.Text = L.copiedDc
+        task.delay(4, function() pcall(function() copied.Text = "" end) end)
+    end)
+
+    local ok = Instance.new("TextButton")
+    ok.Size = UDim2.new(1, -50, 0, 32)
+    ok.Position = UDim2.new(0, 25, 0, 322)
+    ok.BackgroundColor3 = Color3.fromRGB(35, 35, 42)
+    ok.BorderSizePixel = 0
+    ok.Text = L.close
+    ok.Font = Enum.Font.GothamMedium
+    ok.TextSize = 12
+    ok.TextColor3 = Color3.fromRGB(200, 200, 200)
+    ok.AutoButtonColor = false
+    ok.Parent = box
+
+    local oc = Instance.new("UICorner")
+    oc.CornerRadius = UDim.new(0, 8)
+    oc.Parent = ok
+
+    ok.MouseEnter:Connect(function()
+        TweenService:Create(ok, TweenInfo.new(0.15), {BackgroundColor3 = Color3.fromRGB(55, 55, 65)}):Play()
+    end)
+    ok.MouseLeave:Connect(function()
+        TweenService:Create(ok, TweenInfo.new(0.15), {BackgroundColor3 = Color3.fromRGB(35, 35, 42)}):Play()
+    end)
+    ok.MouseButton1Click:Connect(function()
+        pg:Destroy()
+    end)
+end
+
+local pickerGui = Instance.new("ScreenGui")
+pickerGui.Name = "ScriptPicker"
+pickerGui.ResetOnSpawn = false
+pickerGui.IgnoreGuiInset = true
+pickerGui.ZIndexBehavior = Enum.ZIndexBehavior.Global
+pickerGui.Parent = CoreGui
+autoScale(pickerGui)
+
+local overlay = Instance.new("Frame")
+overlay.Size = UDim2.new(1, 0, 1, 0)
+overlay.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+overlay.BackgroundTransparency = 0.25
+overlay.BorderSizePixel = 0
+overlay.Parent = pickerGui
+
+local panel = Instance.new("Frame")
+panel.Size = UDim2.new(0, 340, 0, 470)
+panel.Position = UDim2.new(0.5, -170, 0.5, -235)
+panel.BackgroundColor3 = Color3.fromRGB(12, 12, 18)
+panel.BorderSizePixel = 0
+panel.Parent = pickerGui
+
+local pcorner = Instance.new("UICorner")
+pcorner.CornerRadius = UDim.new(0, 14)
+pcorner.Parent = panel
+
+local pstroke = Instance.new("UIStroke")
+pstroke.Color = Color3.fromRGB(200, 0, 0)
+pstroke.Thickness = 2
+pstroke.Parent = panel
+
+local titleLbl = Instance.new("TextLabel")
+titleLbl.Size = UDim2.new(1, -24, 0, 32)
+titleLbl.Position = UDim2.new(0, 15, 0, 12)
+titleLbl.BackgroundTransparency = 1
+titleLbl.Text = "Selamat Script Sudah Bisa Digunakan"
+titleLbl.Font = Enum.Font.GothamBold
+titleLbl.TextSize = 18
+titleLbl.TextColor3 = Color3.fromRGB(255, 60, 60)
+titleLbl.TextXAlignment = Enum.TextXAlignment.Left
+titleLbl.Parent = panel
+
+local subLbl = Instance.new("TextLabel")
+subLbl.Size = UDim2.new(1, -24, 0, 18)
+subLbl.Position = UDim2.new(0, 15, 0, 44)
+subLbl.BackgroundTransparency = 1
+subLbl.Text = "Pilih Negara"
+subLbl.Font = Enum.Font.Gotham
+subLbl.TextSize = 12
+subLbl.TextColor3 = Color3.fromRGB(180, 180, 180)
+subLbl.TextXAlignment = Enum.TextXAlignment.Left
+subLbl.Parent = panel
+
+local scroll = Instance.new("ScrollingFrame")
+scroll.Size = UDim2.new(1, -28, 1, -84)
+scroll.Position = UDim2.new(0, 14, 0, 72)
+scroll.BackgroundTransparency = 1
+scroll.BorderSizePixel = 0
+scroll.ScrollBarThickness = 4
+scroll.ScrollBarImageColor3 = Color3.fromRGB(200, 0, 0)
+scroll.CanvasSize = UDim2.new(0, 0, 0, #countries * 50 + 8)
+scroll.Parent = panel
+
+local layout = Instance.new("UIListLayout")
+layout.Padding = UDim.new(0, 6)
+layout.SortOrder = Enum.SortOrder.LayoutOrder
+layout.Parent = scroll
+
+for i, c in ipairs(countries) do
+    local btn = Instance.new("TextButton")
+    btn.Size = UDim2.new(1, -8, 0, 44)
+    btn.BackgroundColor3 = Color3.fromRGB(25, 25, 32)
+    btn.BorderSizePixel = 0
+    btn.Text = ""
+    btn.AutoButtonColor = false
+    btn.LayoutOrder = i
+    btn.Parent = scroll
+
+    local bcorner = Instance.new("UICorner")
+    bcorner.CornerRadius = UDim.new(0, 8)
+    bcorner.Parent = btn
+
+    local lbl = Instance.new("TextLabel")
+    lbl.Size = UDim2.new(1, -28, 1, 0)
+    lbl.Position = UDim2.new(0, 14, 0, 0)
+    lbl.BackgroundTransparency = 1
+    lbl.Text = c.flag .. "   " .. c.name
+    lbl.Font = Enum.Font.GothamMedium
+    lbl.TextSize = 15
+    lbl.TextColor3 = Color3.fromRGB(255, 255, 255)
+    lbl.TextXAlignment = Enum.TextXAlignment.Left
+    lbl.Parent = btn
+
+    btn.MouseEnter:Connect(function()
+        TweenService:Create(btn, TweenInfo.new(0.15), {BackgroundColor3 = Color3.fromRGB(70, 0, 0)}):Play()
+    end)
+    btn.MouseLeave:Connect(function()
+        TweenService:Create(btn, TweenInfo.new(0.15), {BackgroundColor3 = Color3.fromRGB(25, 25, 32)}):Play()
+    end)
+    btn.MouseButton1Click:Connect(function()
+        currentLang = c.lang
+        pickerGui:Destroy()
+        task.wait(0.15)
+        showReadyPopup()
+    end)
+end
