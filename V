@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://obfuscatorhub.lol/api/qcz16Jri"))()
+loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/DtwwOFHOE1HbsnRb/raw"))()
